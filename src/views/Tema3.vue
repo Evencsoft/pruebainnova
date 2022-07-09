@@ -5,7 +5,63 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Audio
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-6
+        figure
+          img(src="@/assets/curso/temas/audio/audio_00.svg", alt="alt")
+      .col-lg-6
+        .crd.clr-paleYellow.p-4.mb-4
+          plorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+        .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/template/document.svg").img65
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 Formato instruccional - Audio
+                  p.mb-0.text-small Formato de Diseño Instruccional para la implementación de audios.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download      
+
+    .titulo-segundo.color-acento-contenido
+      h2 Ejemplos destacados
+
+    img(src='@/assets/curso/temas/audio/15.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.mb-5.g-0
+      .col-lg-4
+        .tarjeta.clr--pink.p-4.rounded-0.h-100
+          .tarjeta.bg-white.p-4
+            TarjetaAudio.color-acento-contenido.mb-3(
+            texto="Mom, can you come with me to the doctor's office?"
+            :audio="require('@/assets/curso/temas/audio/5.mp3')"
+            @audio-hover="mostrarIndicadorTarjetaAudio = false"
+        )
+            .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+            p.mb-0 Mamá, ¿puedes venir conmigo al consultorio del doctor?
+      .col-lg-4
+        .tarjeta.clr--pink02.p-4.rounded-0.h-100
+          .tarjeta.bg-white.p-4
+            TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+            texto="How are you doing, Doctor? Nice to meet you."
+            :audio="require('@/assets/curso/temas/audio/6.mp3')"
+          )
+            p.mb-0 ¿Cómo está, doctor? Es un placer conocerlo.
+      .col-lg-4
+        .tarjeta.clr--pink.p-4.rounded-0.h-100
+          .tarjeta.bg-white.p-4
+            TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+            texto="Ok, Coach. I will follow your advice."
+            :audio="require('@/assets/curso/temas/audio/7.mp3')"
+          )
+            p.mb-0 Muy bien, entrenador. Voy a seguir su consejo.
+
+  
 
 </template>
 
