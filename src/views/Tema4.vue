@@ -127,17 +127,17 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 2")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/1TvhnYvYgfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)            
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/1TvhnYvYgfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 3")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/DxXXccau3C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/Z9zSnDD46IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)       
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 4")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/6A1jY0MzJu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/-G8D2UP9ZiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)              
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 5")
         figure

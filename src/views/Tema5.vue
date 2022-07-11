@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
         figure
-          img(src="@/assets/curso/temas/sliders/Diapositivas.svg", alt="alt")
+          img(src="@/assets/curso/temas/actividad/actividad_didactica.svg", alt="alt")
       .col-lg-6
         .crd.clr--gris.p-4
           p.mb-0 Una actividad didáctica es el conjunto de componentes interactivos propuestas a los alumnos para alcanzar los objetivos determinados de aprendizaje. Una componente formativo puede incluir una o varias de estas actividades.
