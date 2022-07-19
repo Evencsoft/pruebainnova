@@ -13,7 +13,7 @@
           img(src="@/assets/curso/temas/audio/audio_00.svg", alt="alt")
       .col-lg-6
         .crd.clr-paleYellow.p-4.mb-4
-          plorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          p.mb-0 Archivo en formato MP3 que se puede combinar con otros componentes interactivos para reforzar la explicación de un tema o concepto. Por ejemplo, se puede utilizar en conjunto con un slider de diapositivas para dar lugar a un sonoviso.  
 
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center

@@ -41,7 +41,7 @@
                 i.fas.fa-angle-right.txt--orange
                 | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
 
-          .tarjeta.clr--gris.p-4(titulo="Recomendaciones del diseñador")
+        
     
 
     separador

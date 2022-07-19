@@ -53,7 +53,7 @@
                 i.fas.fa-angle-right.txt--orange
                 | La información debe estar bien organizada y esquematizada. 
 
-          .tarjeta.clr--gris.p-4(titulo="Recomendaciones del diseñador")
+          
 
     
 

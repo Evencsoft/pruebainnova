@@ -41,7 +41,7 @@
                 i.fas.fa-angle-right.txt--orange
                 | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
 
-          .tarjeta.clr--gris.p-4(titulo="Recomendaciones del diseñador")
+          
 
     separador    
 
@@ -123,6 +123,59 @@
             p.mb-0 Los procesos de organización de archivos son tres: clasificación, ordenación y descripción. A pesar de la aparente claridad, la primera dificultad que se encuentra al trabajar en archivos consiste en determinar qué se entiende archivísticamente por cada uno de ellos, pues las palabras mismas requieren atención por parte de los encargados de archivos para aclarar sus especificidades.
 
     h3.mb-3 #[i.fas.fa-angle-double-right.txt--orange] Pestañas horizontales - iconos
+
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Animaciones" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_01.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p La palabra animación proviene del latín ánima, que significa alma o espíritu, de allí que el proceso de animación en producción gráfica, busca crear y dar  la ilusión de movimiento y vida sobre objetos  inanimados como  imágenes y fotografías, entre otros.
+              br
+              br
+              |Este proceso enlaza diferentes secuencias de  dibujos que al darles una velocidad de  movimiento constante, por lo general de 24 cuadros por segundo, dan la sensación de vida y movimiento a los objetos. 
+              br
+              br
+              |Se pueden encontrar diferentes tipos de animación como por ejemplo:                   
+            p.text-bl <i><b>Stop motion.</b></i> Este tipo de animación es muy conocida y se logra haciendo una gran cantidad de tomas consecutivas de un objeto, movilizando entre toma y toma, que al ser unidas dan la sensación de movimiento. 
+          .col-md-6.mb-4.mb-md-0
+            img(src="@/assets/curso/temas/pestañas/pestaña_c1.svg" alt="Adornos flotantes")
+
+      .py-4.py-md-5(titulo="Dibujos animados" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_02.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p La técnica de los dibujos animados es atribuida a Disney, y está dada por una sucesión de imágenes en dos dimensiones, a partir de fotogramas puestos en secuencia, que unidos dan la sensación de movimiento. 
+          .col-md-6.mb-4.mb-md-0
+            .tira_1
+
+      .py-4.py-md-5(titulo="Plasmación" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_03.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p En esta técnica de animación se realizan y caracterizan personajes  principalmente en plastilina, los cuales se van moviendo muy lentamente de captura en captura. 
+              br
+              br
+              |Dentro de algunas de las películas más importantes con esta técnica podemos encontrar, Pollitos en fuga y El extraño mundo de Jack. 
+          .col-md-6.mb-4.mb-md-0
+            .tira_2
+
+      .py-4.py-md-5(titulo="Animación computarizada" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_04.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Este tipo de animación ha tenido gran auge en la última década ya que su parecido con la realidad, es casi imperceptible y no solo se limita a la creación de personajes para películas sino también se utiliza en videojuegos entre otros. En su creación son utilizados diversos programas que permiten generar realidades en 3D y en 4D. 
+          .col-md-6.mb-4.mb-md-0
+            .tira_3
+
+      .py-4.py-md-5(titulo="Videos" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_05.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p El video es un sistema que permite la grabación simultánea de imágenes y  sonidos, en algunos casos en una cinta magnética y en otros por medios digitales, por una secuencia de captura de fotogramas de imágenes que luego en secuencia y a una velocidad considerable, generan movimiento. 
+          .col-md-6.mb-4.mb-md-0
+            .tira_4
+      .py-4.py-md-5(titulo="Sliders" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_06.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Un slider es un recurso en diseño web, el cual consiste en mostrar diferentes imágenes, sonidos e incluso videos que se van deslizando unas sobre otras. Se puede interpretar como un carrusel o deslizador de diapositivas, el cual va ubicado generalmente en una parte destacada de la web. 
+          .col-md-6.mb-4.mb-md-0
+            .tira_5
+              img(src="@/assets/curso/temas/pestañas/slider.svg" alt="Adornos flotantes")
 
 </template>
 

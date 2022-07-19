@@ -40,8 +40,11 @@
               li 
                 i.fas.fa-angle-right.txt--orange
                 | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Se deben utilizar máximo 8 tarjetas por carrusel.
 
-          .tarjeta.clr--gris.p-4(titulo="Recomendaciones del diseñador")
+          
     
 
     separador

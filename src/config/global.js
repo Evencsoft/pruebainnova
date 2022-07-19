@@ -295,54 +295,40 @@ export default {
           },
         ],
       },
-      {
-        nombreRuta: 'tema14',
-        icono: 'far fa-file-alt',
-        numero: '14',
-        titulo: 'Citas',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema15',
-        icono: 'far fa-file-alt',
-        numero: '15',
-        titulo: 'Estilos tipográficos',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'glosario',
-        icono: 'fas fa-sort-alpha-down',
-        titulo: 'Glosario',
-      },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
-        icono: 'fas fa-book',
-        titulo: 'Referencias bibliográficas',
-        nombreRuta: 'referencias',
-      },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+      // {
+      //   icono: 'fas fa-sitemap',
+      //   titulo: 'Síntesis',
+      //   nombreRuta: 'sintesis',
+      //   desarrolloContenidos: true,
+      // },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
+      // {
+      //   nombreRuta: 'glosario',
+      //   icono: 'fas fa-sort-alpha-down',
+      //   titulo: 'Glosario',
+      // },
+      // {
+      //   nombreRuta: 'complementario',
+      //   icono: 'far fa-folder-open',
+      //   titulo: 'Material complementario',
+      // },
+      // {
+      //   icono: 'fas fa-book',
+      //   titulo: 'Referencias bibliográficas',
+      //   nombreRuta: 'referencias',
+      // },
+      // {
+      //   icono: 'fas fa-download',
+      //   titulo: 'Descargar material',
+      //   download: 'downloads/material.zip',
+      // },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',

@@ -328,3 +328,30 @@
   width: 15%
 .linea-tiempo-e:before
   left: 15%
+
+////// Tiras
+.tira_1, .tira_2, .tira_3, .tira_4, .tira_5
+  background-repeat: repeat
+  background-size: auto
+  background-position: start
+  min-height: 297px
+  -webkit-animation: tira 8s steps(1701) infinite
+  animation: tira 8s steps(1701) infinite
+
+.tira_1
+  background-image: url(../assets/curso/temas/pestañas/tira_01.jpg)
+.tira_2
+  background-image: url(../assets/curso/temas/pestañas/tira_02.jpg)
+.tira_3
+  background-image: url(../assets/curso/temas/pestañas/tira_03.jpg)
+.tira_4
+  background-image: url(../assets/curso/temas/pestañas/tira_04.jpg)
+.tira_5
+  background-image: url(../assets/curso/temas/pestañas/tira_05.jpg)
+
+@keyframes tira
+  0%
+    background-position: 1701px
+  100%
+    background-position: 0
+

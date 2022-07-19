@@ -48,7 +48,7 @@
                 i.fas.fa-angle-right.txt--orange
                 | Imágenes (optativas): Añaden interés gráfico e información adicional.
 
-          .tarjeta.clr--gris.p-4(titulo="Recomendaciones del diseñador")
+          
 
 
     separador

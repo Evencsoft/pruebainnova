@@ -13,7 +13,8 @@
           img(src="@/assets/curso/temas/video/video.svg", alt="alt")
       .col-lg-6
         .crd.clr-paleYellow.p-4.mb-4
-          p.mb-0 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          p Cada tema relacionado en los contenidos de un recurso educativo digital puede incluir el desarrollo de los siguientes tipos de recursos audiovisuales: #[strong Spot animado, motion graphics y video clases.]
+          p.mb-0 Se realizan #[strong videos temáticos] para reforzar la explicación de tema o concepto del recurso educativo digital y también #[strong videos de oferta] para hacerle publicidad al programa  que se está desarrollando.
 
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
@@ -32,25 +33,40 @@
     .row
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
-          .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos del guion")
             ul.lista-ul.mb-0
               li 
                 i.fas.fa-angle-right.txt--orange
-                | Contenido máx 25 palabras por escena y dejar palabras destacadas en negrilla.
+                | El guion debe tener una extensión de máximo 500 palabras (ó 24 líneas de texto) que equivalen a 3 minutos, ya que 1 minuto equivale a 166 palabras.
               li 
                 i.fas.fa-angle-right.txt--orange
-                | La información debe ser explicada de forma clara y sencilla, que se pueda dar a nivel visual, para esto se requiere imágenes o analogías que aclaren aun concepto cercano. 
+                | Se sugiere que este segmentado por escenas, cada escena con un texto de máximo 25 palabras y dejar palabras destacadas en negrilla.
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | La información debe ser explicada de forma clara y sencilla, que se pueda dar a nivel visual, para esto se requiere imágenes o analogías que aclaren aun concepto cercano.
               li 
                 i.fas.fa-angle-right.txt--orange
                 | El texto debe estar de forma editable no en imagen, de manera que se pueda copiar y pegar.
               li 
                 i.fas.fa-angle-right.txt--orange
-                | Si el guion trae tablas no deben ser complejas ni muy largas, dada la naturaleza del recurso. 
+                | Si el guion trae tablas no deben ser complejas ni muy largas, dada la naturaleza del recurso.
+
+          .tarjeta.clr--gris.p-4(titulo="Tipos de recursos audiovisuales")    
+            ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--orange
-                | El guion debe tener una extensión de máximo 500 palabras que equivalen a 3 minutos, ya que 1 minuto equivale a 166 palabras.   
+                | Spot animado, incluye la animación de personajes utilizando técnicas tradicionales de animación 2d.
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Motion graphics, incluyen: animación de imágenes, recursos fotográficos y material pregrabado de audio y video.
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Video clase, se genera a partir de un video el que el experto temático presenta pantalla con un tema específico o tutorial  y desde el equipo de producción se realizan las actividades de edición de video que incluye procesos como musicalización, limpieza de audio y adición de cortinillas intro/outro.
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Live Action video en ambientes de aprendizaje y trabajo en exteriores, producción audiovisual generalmente realizada en un ambiente de aprendizaje donde están ubicadas los equipos, mesas de trabajo y/o maquinaria. Se requiere agendar con anticipación las jornadas de grabación.            
 
-          .tarjeta.clr--gris.p-4(titulo="Recomendaciones del diseñador ")      
+            p.mb-0 #[strong Para la realización de los anteriores recursos audiovisuales se sugiere entregar solamente el guion con las indicaciones pertinentes y a partir del mismo el equipo de producción define el tipo de video a desarrollar.]
 
     separador     
 

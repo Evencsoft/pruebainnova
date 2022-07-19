@@ -72,7 +72,7 @@
     .titulo-segundo.color-acento-contenido
       h2 Ejemplos destacados 
 
-    .tarjeta.color-acento-botones.p-4.p-md-5.mb-5
+    .tarjeta.color-acento-botones.p-4.p-md-5.mb-3
       .row.justify-content-around.align-items-center
         .col-8.col-sm-5.col-md-4.mb-4.mb-md-0
           img(src="@/assets/componentes/ej-01.png")
@@ -84,6 +84,15 @@
           a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Infografia_Psicologia_de_moda.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download   
+
+    .row.justify-content-center
+      .col-auto
+        a.anexo(:href="obtenerLink('/downloads/Psicologia_Moda.docx')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-doc.svg")
+          .anexo__texto
+            p Formato instruccional - muestra      
+
 
     
       

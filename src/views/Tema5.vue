@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/temas/actividad/actividad_didactica.svg", alt="alt")
       .col-lg-6
-        .crd.clr--gris.p-4
+        .crd.clr-paleYellow.p-4
           p.mb-0 Una actividad didáctica es el conjunto de componentes interactivos propuestas a los alumnos para alcanzar los objetivos determinados de aprendizaje. Una componente formativo puede incluir una o varias de estas actividades.
 
     .row
@@ -27,7 +27,7 @@
                 i.fas.fa-angle-right.txt--orange
                 | Objetivo de la actividad didáctica
 
-          .tarjeta.clr--gris.p-4(titulo="Recomendaciones del diseñador")
+          
           
     separador    
 
