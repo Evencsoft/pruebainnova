@@ -80,7 +80,7 @@
    
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 1")
         .titulo-quinto.color-acento-contenido.mb-3
-          h4 Elementos básicos de la comunicación 
+          h4 Fases de la Crisis
         .imgCont.m-auto
           .row.justify-content-center.mb-4          
             ImagenInfografica.color-acento-botones.mb-5
