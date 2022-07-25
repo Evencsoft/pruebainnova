@@ -194,13 +194,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '9.1',
-            titulo: 'Tipo 1',
+            titulo: 'Acordeón - tipo 1',
             hash: 't_9_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '9.2',
-            titulo: 'Tipo 2',
+            titulo: 'Acordeón - tipo 2',
             hash: 't_9_2',
           },
         ],
