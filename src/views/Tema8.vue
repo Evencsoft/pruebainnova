@@ -13,58 +13,48 @@
           img(src="@/assets/curso/temas/carrusel/carrusel.svg", alt="alt")
       .col-lg-6
         .crd.clr-paleYellow.p-4.mb-4
-          p.mb-0 El carrusel de tarjetas es un componente web que permite mostrar un grupo de tarjetas de manera secuencial. Las tarjetas están compuestas de iconos y/o imágenes acompañadas de texto.
+          p.mb-0 El carrusel de tarjetas es un componente web que permite mostrar un grupo de tarjetas de manera secuencial. Las tarjetas están compuestas de iconos y/o imágenes acompañadas de texto.              
 
-    .row
-      .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones       
-          .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
-            ul.lista-ul.mb-0
+        p Cuenta con una imagen general sobre el tema y cada tarjeta incluye un ícono (vector sin texto ni mayor detalle dado su tamaño). La interacción con el usuario se da en el momento que se desee avanzar en el carrusel para conocer la información completa. Es otra manera de seccionar información, pero en estas tarjetas se condensan datos muy concisos y pequeños:
+        .row.justify-content-center.align-items-center.ps-3
+          .col-lg-6        
+            ul.lista-ul--color
               li 
-                i.fas.fa-angle-right.txt--orange
-                | Titulo corto e ilustrativo (cuando aplica).
+                i.lista-ul__vineta
+                p.mb-0 Tips 
               li 
-                i.fas.fa-angle-right.txt--orange
-                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+                i.lista-ul__vineta
+                p.mb-0 Datos 
               li 
-                i.fas.fa-angle-right.txt--orange
-                | Se deben utilizar máximo 8 tarjetas por carrusel.
+                i.lista-ul__vineta
+                p.mb-0 Conceptos clave 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Principios 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Fundamentos
+          .col-lg-6
+            ul.lista-ul--color                       
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Causas 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Consecuencias /Efectos 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Ventajas 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Desventajas 
+
 
     separador
 
     .titulo-segundo.color-acento-contenido
       h2 Ejemplos destacados
-
-    h3.mb-3 #[i.fas.fa-angle-double-right.txt--orange] vista individual
-
-    .row.justify-content-center.mb-5
-      .col-md-6
-        SlyderF(columnas="col-12")
-          .tarjeta.color-acento-botones.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-            h2.text-center John Doe
-            p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-          .tarjeta.color-acento-botones.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-            h2.text-center John Doe
-            p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-          .tarjeta.color-acento-botones.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-            h2.text-center John Doe
-            p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-    hr.my-4
-
-    h3.mb-3 #[i.fas.fa-angle-double-right.txt--orange] Vista grupal
-
+      
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
@@ -122,8 +112,83 @@
         h2.text-center LAST
         p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
 
+    .row.mb-5
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones       
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
+            ul.lista-ul.mb-0
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Titulo corto e ilustrativo (cuando aplica).
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Se deben utilizar máximo 8 tarjetas por carrusel.
+              .tarjeta.color-primario.p-3
+                .row.justify-content-around.align-items-center
+                  .col-auto
+                    img(src="@/assets/template/document.svg").img65
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h4.mb-1 Formato instruccional - Carrusel de tarjetas
+                        p.text-small.mb-0 Formato de Diseño Instruccional para la creación de un carrusel de tarjetas. 
+                      .col-sm-auto
+                        a.boton.color-acento-botones(href="https://docs.google.com/document/d/1ZFdoE-NxFw3EIySmILAbcmbYtXGP7Z11b9W0_ODm35c/edit?usp=sharing" target="_blank")
+                          span Descargar
+                          i.fas.fa-file-download  
 
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Ejemplo.
+      span carrusel de tarjetas
 
+    .row.justify-content-center
+      .col-lg-4
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/carrusel/carrusel_01.png", alt="alt").img400.m-auto
+      .col-lg-8
+        p Desde el punto de vista del trabajo archivístico, las tablas de retención documental son fundamentales, porque:
+
+        SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-4")
+          .tarjeta.tarjeta--slyder.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src="@/assets/curso/temas/carrusel/carrusel_02.svg", alt="alt").img100.m-auto     
+            p.text-center.mb-0 Permiten el manejo integral de los documentos.
+
+          .tarjeta.tarjeta--slyder.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src="@/assets/curso/temas/carrusel/carrusel_03.svg", alt="alt").img100.m-auto        
+            p.text-center.mb-0 Facilitan la organización de los documentos a partir del concepto de archivo total.
+
+          .tarjeta.tarjeta--slyder.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src="@/assets/curso/temas/carrusel/carrusel_04.svg", alt="alt").img100.m-auto       
+            p.text-center.mb-0 Ayudan a controlar la producción y trámite documental.
+
+          .tarjeta.tarjeta--slyder.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src="@/assets/curso/temas/carrusel/carrusel_05.svg", alt="alt").img100.m-auto       
+            p.text-center.mb-0 Identifican y reflejan las funciones institucionales.
+
+          .tarjeta.tarjeta--slyder.p-4
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src="@/assets/curso/temas/carrusel/carrusel_06.svg", alt="alt").img100.m-auto       
+            p.text-center.mb-0 Integran los procesos archivísticos para el manejo racional de los documentos. 
+
+    .row.justify-content-center
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1yrQu2LwW0mu4Ae2J61-E8JV5gZ_rg_dB/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra            
 </template>
 
 <script>

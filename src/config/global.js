@@ -190,6 +190,20 @@ export default {
         numero: '9',
         titulo: 'Acordeón',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '9.1',
+            titulo: 'Tipo 1',
+            hash: 't_9_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '9.2',
+            titulo: 'Tipo 2',
+            hash: 't_9_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema10',
