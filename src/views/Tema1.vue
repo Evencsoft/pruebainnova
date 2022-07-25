@@ -112,15 +112,7 @@
 
           a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Infografia_Psicologia_de_moda.pdf')" target="_blank" type="application/pdf")
             span Descargar
-            i.fas.fa-file-download
-
-    //.row.justify-content-center
-      .col-auto
-        a.anexo(:href="obtenerLink('/downloads/Psicologia_Moda.docx')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-doc.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
+            i.fas.fa-file-download  
 
 
 

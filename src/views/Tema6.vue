@@ -25,7 +25,7 @@
                   h4.mb-1 Formato instruccional - slider de diapositivas
                   p.text-small.mb-0 Formato de Diseño Instruccional para la creación de sliders de diapositivas. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/formatos/prueba.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download  
 

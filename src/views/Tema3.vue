@@ -25,7 +25,7 @@
                   h4.mb-1 Formato instruccional - Audio
                   p.mb-0.text-small Formato de Diseño Instruccional para la implementación de audios.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/formato_3_audio_guion_literario.pptx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download      
 

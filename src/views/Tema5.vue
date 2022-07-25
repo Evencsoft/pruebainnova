@@ -35,50 +35,76 @@
       h2 Ejemplos destacados
 
     #t_5_1
-    Dialogo.color-primario(:dialogo="dialogo").mb-5
+    Dialogo.color-primario(:dialogo="dialogo").mb-2
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Greeting the doctor. / Saludando al doctor.
       template(#descripcion-actividad) Escuche los audios y complete los espacios en blanco de cada una de las frases arrastrando el término correcto.   
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/template/document.svg").img65
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 Formato instruccional - Falso y verdadero
+                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario. 
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+      .col-lg-4
+        a.anexo(:href="obtenerLink('/downloads/formato_5_actividad_didactica_falso_verdadero.docx')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-doc.svg")
+          .anexo__texto
+            p Formato instruccional - muestra
+    
 
     #t_5_2
     .tarjeta.clr--gris.p-5.mb-2
       .row.justify-content-around.align-items-center
         .col-8.col-lg-5.mb-4.mb-md-0
-          img(src="@/assets/curso/temas/actividad/actividad_05.png").mb-3
-
-          a.anexo.cstm(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-            .anexo__icono
-              img(src="@/assets/template/icono-doc.svg")
-            .anexo__texto
-              p Formato instruccional - muestra
+          img(src="@/assets/curso/temas/actividad/actividad_05.png").mb-3   
 
         .col-md.col-lg-6
           h3 Cuestionario
           p.mb-4 #[strong Falso o verdadero.] Lea la afirmación de cada ítem y seleccione la respuesta falso o verdadero según corresponda.          
           a.boton.boton--b(:href="obtenerLink('/actividades/AD5/story.html')" target="_blank")
             span Realizar
-            i.fas.fa-puzzle-piece      
+            i.fas.fa-puzzle-piece     
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/template/document.svg").img65
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 Formato instruccional - Falso y verdadero
+                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario. 
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+      .col-lg-4
+        a.anexo(:href="obtenerLink('/downloads/formato_5_actividad_didactica_falso_verdadero.docx')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-doc.svg")
+          .anexo__texto
+            p Formato instruccional - muestra     
     
-    .tarjeta.color-primario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-auto
-          img(src="@/assets/template/document.svg").img65
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h4.mb-1 Formato instruccional - Cuestionario
-              p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario. 
-            .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
 
     .tarjeta.clr--gris.p-5.mb-2
       .row.justify-content-around.align-items-center
         .col-8.col-lg-5.mb-4.mb-md-0
           img(src="@/assets/curso/temas/actividad/actividad_02.png").mb-3
 
-          a.anexo.cstm(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.anexo.cstm(:href="obtenerLink('/downloads/formatos/formato_5_actividad_didactica_opcion_multiple.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-doc.svg")
             .anexo__texto
@@ -90,21 +116,32 @@
           
           a.boton.boton--b(:href="obtenerLink('/actividades/AD2/story.html')" target="_blank")
             span Realizar
-            i.fas.fa-puzzle-piece      
+            i.fas.fa-puzzle-piece   
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/template/document.svg").img65
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 Formato instruccional - Cuestionario
+                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario. 
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download 
+      .col-lg-4
+        a.anexo(:href="obtenerLink('/downloads/formato_5_actividad_didactica_falso_verdadero.docx')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-doc.svg")
+          .anexo__texto
+            p Formato instruccional - muestra 
+
     
-    .tarjeta.color-primario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-auto
-          img(src="@/assets/template/document.svg").img65
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h4.mb-1 Formato instruccional - Cuestionario
-              p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario. 
-            .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download 
+    
 
     #t_5_3
     .tarjeta.clr--gris.p-5.mb-2
