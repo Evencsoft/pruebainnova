@@ -15,20 +15,6 @@
         .crd.clr-paleYellow.p-4.mb-4
           p.mb-0 El carrusel de tarjetas es un componente web que permite mostrar un grupo de tarjetas de manera secuencial. Las tarjetas están compuestas de iconos y/o imágenes acompañadas de texto.
 
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/document.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Carrusel de tarjetas
-                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de un carrusel de tarjetas. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download 
-
     .row
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
@@ -44,54 +30,99 @@
                 i.fas.fa-angle-right.txt--orange
                 | Se deben utilizar máximo 8 tarjetas por carrusel.
 
-          
-    
-
     separador
 
     .titulo-segundo.color-acento-contenido
       h2 Ejemplos destacados
 
+    h3.mb-3 #[i.fas.fa-angle-double-right.txt--orange] vista individual
 
-    .row.justify-content-center
-      .col-lg-4
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/carrusel/carrusel_01.png", alt="alt").img400.m-auto
-      .col-lg-8
-        p Desde el punto de vista del trabajo archivístico, las tablas de retención documental son fundamentales, porque:
-
-        SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-4")
-          .tarjeta.tarjeta--slyder.p-4
+    .row.justify-content-center.mb-5
+      .col-md-6
+        SlyderF(columnas="col-12")
+          .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/carrusel/carrusel_02.svg", alt="alt").img100.m-auto     
-            p.text-center.mb-0 Permiten el manejo integral de los documentos.
+                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+            h2.text-center John Doe
+            p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
 
-          .tarjeta.tarjeta--slyder.p-4
+          .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/carrusel/carrusel_03.svg", alt="alt").img100.m-auto        
-            p.text-center.mb-0 Facilitan la organización de los documentos a partir del concepto de archivo total.
+                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+            h2.text-center John Doe
+            p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
 
-          .tarjeta.tarjeta--slyder.p-4
+          .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/carrusel/carrusel_04.svg", alt="alt").img100.m-auto       
-            p.text-center.mb-0 Ayudan a controlar la producción y trámite documental.
+                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+            h2.text-center John Doe
+            p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
 
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src="@/assets/curso/temas/carrusel/carrusel_05.svg", alt="alt").img100.m-auto       
-            p.text-center.mb-0 Identifican y reflejan las funciones institucionales.
+    hr.my-4
 
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src="@/assets/curso/temas/carrusel/carrusel_06.svg", alt="alt").img100.m-auto       
-            p.text-center.mb-0 Integran los procesos archivísticos para el manejo racional de los documentos. 
+    h3.mb-3 #[i.fas.fa-angle-double-right.txt--orange] Vista grupal
 
-    
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        h2.text-center FIRST
+        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        h2.text-center 2
+        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        h2.text-center 3
+        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        h2.text-center 4
+        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        h2.text-center 5
+        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        h2.text-center 6
+        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        h2.text-center 7
+        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+      .tarjeta.color-acento-botones.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        h2.text-center LAST
+        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+
 
 </template>
 

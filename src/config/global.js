@@ -153,19 +153,19 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '6.1',
-            titulo: 'Pasos',
+            titulo: 'Slider simple',
             hash: 't_6_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '6.2',
-            titulo: 'Hitos',
+            titulo: 'Slider con Titulo',
             hash: 't_6_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '6.3',
-            titulo: 'Presentación',
+            titulo: 'Numeral o pasos',
             hash: 't_6_3',
           },
         ],
@@ -190,20 +190,6 @@ export default {
         numero: '9',
         titulo: 'Acordeón',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '9.1',
-            titulo: 'Tipo 1',
-            hash: 't_9_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '9.2',
-            titulo: 'Tipo 2',
-            hash: 't_9_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema10',
