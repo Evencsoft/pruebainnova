@@ -20,7 +20,7 @@
     separador    
 
     .titulo-segundo.color-acento-contenido
-      h2 Ejemplos destacados
+      h2 Estructura del componente
       
     .bg--gradientBlue.p-5.mb-5
       SlyderB(:datos="datosSlyder")
@@ -52,7 +52,7 @@
                         i.fas.fa-file-download                  
 
     .titulo-sexto.color-acento-contenido.mb-3
-      h5 Ejemplo.
+      h5 Ejemplo
       span slider de imágenes 
 
     .bg--gradientBlue.p-5.mb-4

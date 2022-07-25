@@ -30,7 +30,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Infografía puntos calientes
 
-    ImagenInfografica.color-secundario.mb-5
+    ImagenInfografica.color-primario.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')

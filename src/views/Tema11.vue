@@ -13,28 +13,53 @@
           img(src="@/assets/curso/temas/linea_tiempo/linea_tiempo.svg", alt="alt")
       .col-lg-6
         .crd.clr-paleYellow.p-4.mb-4
-          p.mb-0 Una línea del tiempo es una representación gráfica de una secuencia cronológica de los eventos de una historia, proceso o narración. Las líneas del tiempo, que se presentan en formato horizontal o vertical, les brinda a los usuarios un medio simplificado para comprender cómo los distintos eventos, personas y acciones desempeñaron un rol, o lo desempeñarán, en un proceso o período determinado. Las líneas del tiempo también se pueden combinar con texto y gráficos para producir infografías, que sirven para presentar fácilmente estadísticas, eventos históricos y otra información. 
+          p.mb-0 Una línea del tiempo es una representación gráfica de una secuencia cronológica de los eventos de una historia, proceso o narración. Las líneas del tiempo, que se presentan en formato horizontal o vertical, les brinda a los usuarios un medio simplificado para comprender cómo los distintos eventos, personas y acciones desempeñaron un rol, o lo desempeñarán, en un proceso o período determinado. Las líneas del tiempo también se pueden combinar con texto y gráficos para producir infografías, que sirven para presentar fácilmente estadísticas, eventos históricos y otra información.
 
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/document.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - línea de tiempo
-                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de una línea de tiempo. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+        p Se presenta la información en una secuencia lineal aportando datos específicos y concretos (con la posibilidad de estar cronológicamente organizados) acompañados, cada uno, de una imagen o ícono. En este recurso es posible clasificar la información a partir de: 
+        .row.justify-content-start.align-items-center.ps-3
+          .col-lg-6        
+            ul.lista-ul--color      
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Palabras clave 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Periodos de tiempo 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Etapas 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Fases             
 
-    .row
+    separador
+    #t_11_1.titulo-segundo.color-acento-contenido
+      h2 11.1 Línea de tiempo - vertical
+    
+    LineaTiempoE.color-primario.mb-5
+      .row(titulo="2014 - Present" subtitulo="Title, Company")
+        .col-lg-6.mb-4.mb-lg-0
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        .col-lg-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            figcaption Leyenda de la imagen
+
+      .row(titulo="2014 - Present" subtitulo="Title, Company")
+        .col-lg-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            figcaption Leyenda de la imagen      
+        .col-lg-6.mb-4.mb-lg-0
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+
+
+    .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             p Las líneas del tiempo están conformados por cuatro componentes básicos:
-            ul.lista-ul.mb-0
+            ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--orange
                 | Fechas: Marcar cuando un evento específico tiene lugar en una línea del tiempo.
@@ -47,18 +72,23 @@
               li 
                 i.fas.fa-angle-right.txt--orange
                 | Imágenes (optativas): Añaden interés gráfico e información adicional.
+            .tarjeta.color-primario.p-3
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/document.svg").img65
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4.mb-1 Formato instruccional - línea de tiempo
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de una línea de tiempo. 
+                    .col-sm-auto
+                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1f4bPp_jRW5aIfr-p7DORAtjSh_EB787rw67z0VBF2ew/edit?usp=sharing" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download   
 
-          
-
-
-    separador
-
-    .titulo-segundo.color-acento-contenido
-      h2 Ejemplos destacados
-
-    #t_11_1
-    h3.mb-4 #[i.fas.fa-angle-double-right.txt--orange] Línea de tiempo - vertical
-    
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Ejemplo
+      span línea de tiempo - vertical
 
     .row
       .col-12
@@ -93,9 +123,84 @@
               h4 Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas
               p Los ODS son 17 objetivos que plantean líneas de acción mundiales para que alrededor de temáticas que se consideran claves, los países y las empresas formulen planes y proyectos. En este sentido, en el objetivo cuatro se hace mención del tema de la inclusión cuando se plantea que debe ser un propósito garantizar una educación inclusiva, equitativa y de calidad para promover oportunidades de aprendizaje. 
     
+    .row.justify-content-center
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1d8bzZ4-G9sGMdbtpHMS3Q-xVXlvythoQ/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra        
 
-    #t_11_2
-    h3.mb-4 #[i.fas.fa-angle-double-right.txt--orange] Línea de tiempo - horizontal
+    separador
+    #t_11_2.titulo-segundo.color-acento-contenido
+      h2 11.2 Línea de tiempo - horizontal
+
+    .tarjeta.tarjeta--gris.p-4.mb-5
+      LineaTiempoC.color-acento-contenido(text-small)
+        .row(titulo="1761")
+          .col-md-6.mb-4.mb-md-0
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
+
+
+        .row(titulo="1798")
+          .col-md-6.mb-4.mb-md-0
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
+
+
+        .row(titulo="1887")
+          .col-md-6.mb-4.mb-md-0
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
+
+    .row.mb-5
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones       
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
+            p Las líneas del tiempo están conformados por cuatro componentes básicos:
+            ul.lista-ul.mb-4
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Fechas: Marcar cuando un evento específico tiene lugar en una línea del tiempo.
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Descripciones: Describir un evento determinado.
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Encabezados (opcionales): Aportan más contexto en una línea del tiempo cuando se los agrega junto con una descripción.
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Imágenes (optativas): Añaden interés gráfico e información adicional.
+            .tarjeta.color-primario.p-3
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/document.svg").img65
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4.mb-1 Formato instruccional - línea de tiempo
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de una línea de tiempo. 
+                    .col-sm-auto
+                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1f4bPp_jRW5aIfr-p7DORAtjSh_EB787rw67z0VBF2ew/edit?usp=sharing" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download   
+
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Ejemplo
+      span línea de tiempo - horizontal
 
     .tarjeta.bg3.p-4.mb-5
       LineaTiempoC.color-secundario(text-small)
@@ -165,7 +270,13 @@
             p Las barreras de las distancias empiezan a desvanecerse y aparecen nuevas necesidades de aprendizaje y adaptación a estilos, negociaciones, habilidades blandas y digitales, entre otras. 
             p La era digital va a dar mucho de qué hablar y un emprendedor que analiza su entorno sabe que debe prepararse para todos estos cambios y apropiarse de estas nuevas habilidades.
     
-
+    .row.justify-content-center
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1oqnS7wrYfximsJfBX5I7WobKelEWW9k1/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra    
 </template>
 
 <script>

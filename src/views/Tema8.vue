@@ -53,7 +53,7 @@
     separador
 
     .titulo-segundo.color-acento-contenido
-      h2 Ejemplos destacados
+      h2 Estructura del componente
       
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-acento-botones.p-4
@@ -116,7 +116,7 @@
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
-            ul.lista-ul.mb-0
+            ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--orange
                 | Titulo corto e ilustrativo (cuando aplica).
@@ -141,7 +141,7 @@
                           i.fas.fa-file-download  
 
     .titulo-sexto.color-acento-contenido.mb-3
-      h5 Ejemplo.
+      h5 Ejemplo
       span carrusel de tarjetas
 
     .row.justify-content-center

@@ -15,25 +15,87 @@
         .crd.clr-paleYellow.p-4.mb-4
           p.mb-0 Las tarjetas se utilizan para agrupar varios contenidos dentro de un contenedor que se puede replicar de manera modular en el contenido del sitio web. 
 
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/document.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Tarjetas
-                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+        p Es un forma de seccionar información un poco más amplia que en el carrusel de tarjetas, aunque igualmente se debe ser concreto en la explicación. Al ser tarjetas su intencionalidad está enfocada a dar un dato o definición específica, que el usuario pueda llevarse ese dato fácilmente en su memoria o asociarlo a un hecho rápidamente, puede usarse para: 
+        .row.justify-content-start.align-items-center.ps-3
+          .col-lg-6        
+            ul.lista-ul--color
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Definir roles específicos 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Aclaraciones y excepciones 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Caracterizaciones 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Ventajas y desventajas
+          .col-lg-6        
+            ul.lista-ul--color
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Datos curiosos 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Explicaciones pequeñas y concretas 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Resultados 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Estadísticas   
 
-    .row
+    separador
+    #t_13_1.titulo-segundo.color-acento-contenido
+      h2 13.1 Tarjetas - avatar
+
+    .row.mb-5
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+
+          h3.text-center Intuition important
+          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-secundario.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+
+          h3.text-center Intuition important
+          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+
+          h3.text-center Intuition important
+          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+
+      .col-sm-6.col-lg-3
+        .tarjeta--boton.color-acento-botones.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+
+          h3.text-center Intuition important
+          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+
+    .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
-            ul.lista-ul.mb-0
+            ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--orange
                 | Titulo corto e ilustrativo (cuando aplica).
@@ -41,15 +103,23 @@
                 i.fas.fa-angle-right.txt--orange
                 | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
 
-      
+            .tarjeta.color-primario.p-3
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/document.svg").img65
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4.mb-1 Formato instruccional - Tarjetas
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas. 
+                    .col-sm-auto
+                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download   
 
-    separador
-
-    .titulo-segundo.color-acento-contenido
-      h2 Ejemplos destacados
-
-    #t_13_1
-    h3.mb-5 #[i.fas.fa-angle-double-right.txt--orange] Tarjetas - avatar
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Ejemplo
+      span tarjetas - avatar 
 
     .bg_img_01
       .row.justify-content-center.mb-5
@@ -75,9 +145,73 @@
             h4.text-center Formas de trabajar
             p.text-center.mb-0 Se centran en estructurar equipos agiles y de respuesta a oportuna, exclusivamente para los clientes, haciendo referencia a las tendencias de #[i marketing], teniendo en cuenta las perspectivas de medición y los canales en los que desarrollan.
 
+    .row.justify-content-center
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/14Bc2_tyVPj_FVjj7vMUuQ7sBVbImYEzn/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra
 
-    #t_13_2
-    h3.mb-5 #[i.fas.fa-angle-double-right.txt--orange] Tarjetas - conectadas
+    separador
+    #t_13_2.titulo-segundo.color-acento-contenido
+      h2 13.2 Tarjetas - conectadas
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+          
+        h2.text-center Celebrate your<br>failures
+        p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+      .col-md.tarjeta.color-acento-botones.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+          
+        h2.text-center Sterility leads to<br>susceptibility
+        p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
+      .col-md.tarjeta.color-acento-contenido.text-white.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+          
+        h2.text-center Sterility leads to<br>susceptibility
+        p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
+
+    .row.mb-5
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones       
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
+            ul.lista-ul.mb-4
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Titulo corto e ilustrativo (cuando aplica).
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+
+            .tarjeta.color-primario.p-3
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/document.svg").img65
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4.mb-1 Formato instruccional - Tarjetas
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas. 
+                    .col-sm-auto
+                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download   
+
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Ejemplo
+      span tarjetas - conectadas
 
     .row.justify-content-center.mb-5
       .col-lg-9.position-relative
@@ -110,9 +244,81 @@
               h5 Comunicación correcta de los resultados
               p En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información. 
 
+    .row.justify-content-center
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1NRjGKQKvyL9QIlRd3EYYCVFQISBsuK4v/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra  
 
-    #t_13_3 
-    h3.mb-5 #[i.fas.fa-angle-double-right.txt--orange] Tarjetas - animadas
+    separador
+    #t_13_3.titulo-segundo.color-acento-contenido
+      h2 13.3 Tarjetas - animadas
+
+    .row.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 John Doe
+              p Lorem ipsum dolor sit amet, 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tarjetas/avatar.svg')})`}")
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tarjetas/avatar.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 John Doe
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+
+      .col-sm-6.col-xl-3.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tarjetas/avatar.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 John Doe
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+
+      .col-sm-6.col-xl-3
+        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tarjetas/avatar.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 John Doe
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+
+    .row.mb-5
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones       
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
+            ul.lista-ul.mb-4
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Titulo corto e ilustrativo (cuando aplica).
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+
+            .tarjeta.color-primario.p-3
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/document.svg").img65
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4.mb-1 Formato instruccional - Tarjetas
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas. 
+                    .col-sm-auto
+                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download   
+
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Ejemplo
+      span tarjetas - animadas
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -141,6 +347,14 @@
           .crd_hover_txt--body
             h4.mb-3 Reporte de ventas mensuales
             p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.    
+
+    .row.justify-content-center
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1fndILIRLCGkpf9cuuE8Ah5DB5F_iJwhX/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra  
 
 </template>
 

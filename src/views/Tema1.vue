@@ -86,22 +86,28 @@
               p.mb-0 #[strong 7) Los gráficos, diagramas, iconos y demás elementos planteados deben ser claros y específicos.]
 
     separador
-
-    h3.mb-5 Ejemplos
+    #t_1_1.titulo-segundo.color-acento-contenido
+      h2 Ejemplos de infografías estáticas
 
     .titulo-sexto.color-acento-contenido
-      h5 Ejemplo 01
-      span Infografía como imagen dentro del contenido
+      h5 Ejemplo
+      span infografía como imagen dentro del contenido
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10
         img(src="@/assets/curso/temas/infografia/info1.png")
-
+    .row.justify-content-center.mb-5
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1eXU5VbhNu8QbPrB-FyskQ_X8tAIbkuHR/view" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra  
     .titulo-sexto.color-acento-contenido
-      h5 Ejemplo 02
-      span Infografía descargable en pdf, con un título y texto introductorio.
+      h5 Ejemplo
+      span infografía descargable en pdf, con un título y texto introductorio.
 
-    .tarjeta.color-acento-botones.p-4.p-md-5.mb-3
+    .tarjeta.color-acento-botones.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-5.col-md-4.mb-4.mb-md-0
           img(src="@/assets/componentes/ej-01.png")
@@ -114,7 +120,13 @@
             span Descargar
             i.fas.fa-file-download  
 
-
+    .row.justify-content-center.mb-5
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1-3pXt71H1Wb1qrak2PXb7MvU5ZaYW2VK/view" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra 
 
 
 </template>

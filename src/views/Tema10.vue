@@ -15,25 +15,64 @@
         .crd.clr-paleYellow.p-4.mb-4
           p.mb-0 La navegación por pestañas se refiere a la posibilidad de que varios paneles con información estén contenidos dentro de una sola ventana principal, usando pestañas para alternar entre ellos.
 
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/document.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Pestañas o tabs
-                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+        p Se presenta la explicación o información en una especie de panel que provee toda la información en la pantalla principal conservando la introducción estática y ahondando a partir de pestañas, permitiendo la navegación entre ellas. Es recomendable usarla en: 
+        .row.justify-content-center.align-items-center.ps-3
+          .col-lg-6        
+            ul.lista-ul--color
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Tipologías 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Etapas 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Definiciones
+          .col-lg-6        
+            ul.lista-ul--color
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Procesos 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Secciones/subtemas 
+              li 
+                i.lista-ul__vineta
+                p.mb-0 Nomenclaturas 
 
-    .row
+          p Es útil cuando se abordan temas como normas, decretos, leyes, condiciones etc. 
+
+
+    separador
+    #t_10_1.titulo-segundo.color-acento-contenido
+      h2 10.1 Pestañas verticales    
+
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
+        h4 PASO 1: The splendor
+        p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
+          strong user style sheets
+          |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+
+      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2")
+        h4 PASO 2: The splendor
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
+          .col-xl-6
+            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
+              strong user style sheets
+              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+
+    .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
-            ul.lista-ul.mb-0
+            ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--orange
                 | Titulo corto e ilustrativo (cuando aplica).
@@ -41,15 +80,23 @@
                 i.fas.fa-angle-right.txt--orange
                 | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
 
-          
+            .tarjeta.color-primario.p-3
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/document.svg").img65
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4.mb-1 Formato instruccional - Pestañas o tabs
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs. 
+                    .col-sm-auto
+                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1QOVDmKmX036aLaKuyGMBevxp_fjucW5ShQiXjb3ONtM/edit?usp=sharing" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download  
 
-    separador    
-
-    .titulo-segundo.color-acento-contenido
-      h2 Ejemplos destacados   
-
-    h3.mb-5 #[i.fas.fa-angle-double-right.txt--orange] Pestañas verticales    
-
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Ejemplo
+      span pestañas verticales 
     .row
       .col-lg-8.order-2.order-lg-1
         TabsA.color-acento-botones.mb-5        
@@ -86,7 +133,68 @@
         figure
           img(src="@/assets/curso/temas/pestañas/pestañas_verticales.png", alt="alt", style="width:450px;").m-auto
 
-    h3.mb-5 #[i.fas.fa-angle-double-right.txt--orange] Pestañas horizontales - sencillas    
+    .row.justify-content-center
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1xk7zYRKzXEl5bDRpXRwLytK_kgMW5FY7/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra           
+
+    separador
+    #t_10_2.titulo-segundo.color-acento-contenido
+      h2 10.2 Pestañas horizontales - sencillas 
+
+    TabsC.color-primario.mb-5
+      .py-3.py-md-4(titulo="The splendor of the mystery")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Celebrate your failures 1
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
+      .py-3.py-md-4(titulo="Don’t lie to yourself")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
+          .col-md-6
+            h4 Celebrate your failures 2
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.         
+
+    .row.mb-5
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones       
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
+            ul.lista-ul.mb-4
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Titulo corto e ilustrativo (cuando aplica).
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+
+            .tarjeta.color-primario.p-3
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/document.svg").img65
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4.mb-1 Formato instruccional - Pestañas o tabs
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs. 
+                    .col-sm-auto
+                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1-1ZkRCH5WZ7uZL3XgwvsahD1WGvRPsLGM3E1kIXHJU8/edit?usp=sharing" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download  
+
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Ejemplo
+      span pestañas horizontales - sencillas 
 
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Archivo de gestión o de oficina")
@@ -122,7 +230,68 @@
 
             p.mb-0 Los procesos de organización de archivos son tres: clasificación, ordenación y descripción. A pesar de la aparente claridad, la primera dificultad que se encuentra al trabajar en archivos consiste en determinar qué se entiende archivísticamente por cada uno de ellos, pues las palabras mismas requieren atención por parte de los encargados de archivos para aclarar sus especificidades.
 
-    h3.mb-3 #[i.fas.fa-angle-double-right.txt--orange] Pestañas horizontales - iconos
+    .row.justify-content-center
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1JrsYPz5-vLHIv6LFhfljklTCqYp6rb22/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra  
+
+    separador
+    #t_10_3.titulo-segundo.color-acento-contenido
+      h2 10.3 Pestañas horizontales - iconos
+
+    TabsB.color-primario.mb-5
+      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Celebrate your failures 1
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
+      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
+          .col-md-6
+            h4 Celebrate your failures 2
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+
+    .row.mb-5
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones       
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
+            ul.lista-ul.mb-4
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Titulo corto e ilustrativo (cuando aplica).
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+
+            .tarjeta.color-primario.p-3
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/document.svg").img65
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4.mb-1 Formato instruccional - Pestañas o tabs
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs. 
+                    .col-sm-auto
+                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1-1ZkRCH5WZ7uZL3XgwvsahD1WGvRPsLGM3E1kIXHJU8/edit?usp=sharing" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download              
+
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Ejemplo
+      span pestañas horizontales - iconos
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Animaciones" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_01.svg')")
@@ -177,6 +346,13 @@
             .tira_5
               img(src="@/assets/curso/temas/pestañas/slider.svg" alt="Adornos flotantes")
 
+    .row.justify-content-center
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1c5aIZTy2B928AM10e0blNUS2_GU7X8Xg/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra  
 </template>
 
 <script>

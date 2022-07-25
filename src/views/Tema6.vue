@@ -38,7 +38,6 @@
 
 
     separador
-
     #t_6_1.titulo-segundo.color-acento-contenido
       h2 6.1 Slide navegación simple
 
@@ -97,7 +96,7 @@
                         i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
-      h5 Ejemplo.
+      h5 Ejemplo
       span navegación simple
 
     .slyderB_bg_01.px-5.py-3.mb-5
@@ -208,7 +207,7 @@
                         i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
-      h5 Ejemplo.
+      h5 Ejemplo
       span navegación con numerales
     .p-4.mb-5.pb-0(style='background-color: #F2E6DD; border-top-left-radius: 20px; border-top-right-radius: 20px;')
       PasosB.color-acento-botones
@@ -354,7 +353,7 @@
                         i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
-      h5 Ejemplo.
+      h5 Ejemplo
       span navegación con títulos 
     LineaTiempoC.color-secundario(text-small)
       .row.align-items-center(titulo="Prehistoria").p-4

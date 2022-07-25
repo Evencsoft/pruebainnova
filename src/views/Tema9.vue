@@ -20,12 +20,10 @@
         p Ya que no demanda una imagen para cada botón puede usarse en caso de contar con una explicación muy grande, seccionada en subtítulos, igualmente para tipificaciones, fases, etapas, pasos o procedimientos con definiciones grandes. 
 
         p Su uso se recomienda cuando las secciones están estrechamente relacionadas con la introducción y se hace necesario que esta esté hilada constantemente. 
-
-
+    
     separador
-
-    .titulo-segundo.color-acento-contenido
-      h2 Ejemplos destacados 
+    #t_9_1.titulo-segundo.color-acento-contenido
+      h2 9.1 Acordeón - tipo 1
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Titulo item 1")
@@ -42,6 +40,69 @@
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
           figcaption Leyenda de la imagen
 
+    .row.mb-5
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones       
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
+            ul.lista-ul.mb-4
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Titulo corto e ilustrativo (cuando aplica).
+              li 
+                i.fas.fa-angle-right.txt--orange
+                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+              .tarjeta.color-primario.p-3
+                .row.justify-content-around.align-items-center
+                  .col-auto
+                    img(src="@/assets/template/document.svg").img65
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h4.mb-1 Formato instruccional - Acordeones
+                        p.text-small.mb-0 Formato de Diseño Instruccional para la creación de un acordeón. 
+                      .col-sm-auto
+                        a.boton.color-acento-botones(href="https://docs.google.com/document/d/1ojd75qS-nmacZ1P0AaHxt-56VS9Gezhbf_V-sVsJuH4/edit?usp=sharing" target="_blank")
+                          span Descargar
+                          i.fas.fa-file-download     
+
+    p.mb-4 A continuación, se destacan cuatro ejes principales que tienen que ver con las exigencias de calidad para el cliente, la mejora continua, satisfacción del cliente y la reglamentación en el cumplimiento de la norma, y en el siguiente recurso se detallan cada una de ellas.
+
+    .bg--img_03
+      .row.justify-content-center.mb-4
+        .col-lg-4
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/temas/acordeones/acord_A_01.png", alt="alt").img400.m-auto
+        .col-lg-8
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+            .row(titulo="ISO 9000, (2005) Sistemas de Gestión de la Calidad. Definiciones y fundamentos")
+              .col-12
+                p.mb-0 Establece un punto de partida para comprender las normas y define los términos fundamentales utilizados en la familia de normas ISO 9000, que se necesitan para evitar malentendidos en su utilización, especificando el vocabulario clave a utilizar dentro del proceso. 
+
+            .row(titulo="ISO 9001(2015). Sistemas de Gestión de la Calidad. Requisitos")
+              .col-12
+                p.mb-0 Es la norma que establece los criterios que permiten lograr eficazmente los requisitos del cliente y los reglamentarios, para conseguir la satisfacción del cliente. Incluye los principios de motivación y participación activa de la dirección como el ciclo de mejora continua. Es el único estándar que puede certificarse. Esta norma exige la elaboración de la documentación que debe conservar el sistema de gestión de calidad, sus políticas y procedimientos.
+
+            .row(titulo="ISO 9004. Sistemas de Gestión de la Calidad. Directrices para la mejora del desempeño")
+              .col-12
+                p.mb-0 Sistemas de Gestión de la Calidad. Directrices para la mejora del desempeño: esta norma proporciona ayuda para la gestión del éxito sostenido del sistema de gestión de la calidad para beneficiar a todas las partes interesadas a través de las mejoras y el mantenimiento de la satisfacción del cliente. La Norma ISO 9004 abarca tanto la eficiencia como la eficacia del sistema de gestión de la calidad.  Se puede tomar como una ampliación de la norma anterior y no es certificable.
+
+            .row(titulo="ISO 19011. Directrices para la auditoría ambiental y de la calidad")
+              .col-12
+                p.mb-0 Proporciona directrices para verificar la capacidad del sistema para conseguir objetivos de la calidad definidos. Esta norma se puede utilizar internamente para auditar a los proveedores de la organización.
+
+    .row.justify-content-center
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1I97nKjGfN-HwuZghYmccPQeg0b8OEP1m/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra                
+
+    separador
+    #t_9_2.titulo-segundo.color-acento-contenido
+      h2 9.2 Acordeón - tipo 2 
+
+    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Titulo item 1")
         .col-md-6.mb-4.mb-md-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -83,48 +144,7 @@
                       .col-sm-auto
                         a.boton.color-acento-botones(href="https://docs.google.com/document/d/1ojd75qS-nmacZ1P0AaHxt-56VS9Gezhbf_V-sVsJuH4/edit?usp=sharing" target="_blank")
                           span Descargar
-                          i.fas.fa-file-download           
-    
-    separador
-    #t_9_1.titulo-segundo.color-acento-contenido
-      h2 9.1 Acordeón - tipo 1
-
-    p.mb-4 A continuación, se destacan cuatro ejes principales que tienen que ver con las exigencias de calidad para el cliente, la mejora continua, satisfacción del cliente y la reglamentación en el cumplimiento de la norma, y en el siguiente recurso se detallan cada una de ellas.
-
-    .bg--img_03
-      .row.justify-content-center.mb-4
-        .col-lg-4
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/acordeones/acord_A_01.png", alt="alt").img400.m-auto
-        .col-lg-8
-          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-            .row(titulo="ISO 9000, (2005) Sistemas de Gestión de la Calidad. Definiciones y fundamentos")
-              .col-12
-                p.mb-0 Establece un punto de partida para comprender las normas y define los términos fundamentales utilizados en la familia de normas ISO 9000, que se necesitan para evitar malentendidos en su utilización, especificando el vocabulario clave a utilizar dentro del proceso. 
-
-            .row(titulo="ISO 9001(2015). Sistemas de Gestión de la Calidad. Requisitos")
-              .col-12
-                p.mb-0 Es la norma que establece los criterios que permiten lograr eficazmente los requisitos del cliente y los reglamentarios, para conseguir la satisfacción del cliente. Incluye los principios de motivación y participación activa de la dirección como el ciclo de mejora continua. Es el único estándar que puede certificarse. Esta norma exige la elaboración de la documentación que debe conservar el sistema de gestión de calidad, sus políticas y procedimientos.
-
-            .row(titulo="ISO 9004. Sistemas de Gestión de la Calidad. Directrices para la mejora del desempeño")
-              .col-12
-                p.mb-0 Sistemas de Gestión de la Calidad. Directrices para la mejora del desempeño: esta norma proporciona ayuda para la gestión del éxito sostenido del sistema de gestión de la calidad para beneficiar a todas las partes interesadas a través de las mejoras y el mantenimiento de la satisfacción del cliente. La Norma ISO 9004 abarca tanto la eficiencia como la eficacia del sistema de gestión de la calidad.  Se puede tomar como una ampliación de la norma anterior y no es certificable.
-
-            .row(titulo="ISO 19011. Directrices para la auditoría ambiental y de la calidad")
-              .col-12
-                p.mb-0 Proporciona directrices para verificar la capacidad del sistema para conseguir objetivos de la calidad definidos. Esta norma se puede utilizar internamente para auditar a los proveedores de la organización.
-
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1I97nKjGfN-HwuZghYmccPQeg0b8OEP1m/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra                
-
-    separador
-    #t_9_2.titulo-segundo.color-acento-contenido
-      h2 9.2 Acordeón - tipo 2 
+                          i.fas.fa-file-download        
 
     .row.justify-content-center
       .col-lg-8
