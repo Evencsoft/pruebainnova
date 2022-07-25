@@ -72,7 +72,7 @@
         .col-md.col-lg-6
           h3 Cuestionario
           p.mb-4 #[strong Falso o verdadero.] Lea la afirmación de cada ítem y seleccione la respuesta falso o verdadero según corresponda.          
-          a.boton.boton--b(:href="obtenerLink('/actividades/AD5/story.html')" target="_blank")
+          a.boton.boton--b(:href="obtenerLink('/actividades/AD5/index.html')" target="_blank")
             span Realizar
             i.fas.fa-puzzle-piece     
 
@@ -114,7 +114,7 @@
           h3 Cuestionario
           p.mb-4 #[strong Opción múltiple.] Lea la afirmación de cada ítem y luego señale la respuesta correcta según corresponda.
           
-          a.boton.boton--b(:href="obtenerLink('/actividades/AD2/story.html')" target="_blank")
+          a.boton.boton--b(:href="obtenerLink('/actividades/AD2/index.html')" target="_blank")
             span Realizar
             i.fas.fa-puzzle-piece   
 
@@ -152,7 +152,7 @@
         .col-md.col-lg-6
           h3 Relación de términos
           p.mb-4 #[strong Arrastrar y soltar coincidencias.] De acuerdo a la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha. 
-          a.boton.boton--b(:href="obtenerLink('/actividades/AD1/story.html')" target="_blank")
+          a.boton.boton--b(:href="obtenerLink('/actividades/AD1/index.html')" target="_blank")
             span Realizar
             i.fas.fa-puzzle-piece      
     
@@ -188,7 +188,7 @@
           h3 Completar frases
           p.mb-4 #[strong Completar frases.] Escuche los audios, complete los espacios en blanco de cada una de las frases y luego haga clic en el botón "Verificar respuesta"
           
-          a.boton.boton--b(:href="obtenerLink('/actividades/AD3/story.html')" target="_blank")
+          a.boton.boton--b(:href="obtenerLink('/actividades/AD3/index.html')" target="_blank")
             span Realizar
             i.fas.fa-puzzle-piece      
     
@@ -224,7 +224,7 @@
           h3 Completar frases
           p.mb-4 #[strong Completar frases.] Complete los espacios en blanco de cada una de las frases y luego haga clic en el botón "Verificar respuesta".
           
-          a.boton.boton--b(:href="obtenerLink('/actividades/AD4/story.html')" target="_blank")
+          a.boton.boton--b(:href="obtenerLink('/actividades/AD4/index.html')" target="_blank")
             span Realizar
             i.fas.fa-puzzle-piece      
     
