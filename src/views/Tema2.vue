@@ -164,11 +164,18 @@
                     h4 5. Transpiración
                     p.mb-0 Acción por medio de la cual las plantas, a través de sus estomas, liberan agua a la atmósfera en forma gaseosa.
 
+    .row.justify-content-center.mt-5
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1l5xILu9ounwutyxi5CSTytllgiWheuyX/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra  
 
     separador
 
-    #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Infografía ventanas modales
+    #t_2_2.titulo-segundo.color-acento-contenido
+      h2 2.2  Infografía ventanas modales
 
 
     ImagenInfograficaB.color-primario.mb-5
@@ -488,7 +495,13 @@
                         figure
                           img(src="@/assets/curso/temas/infografia/t1_13.png", alt="alt", style="width:400px;").m-auto
 
-
+    .row.justify-content-center.mt-5
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1rk5d28KabWs8h4GMSPJWhBcTuobXmjJS/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra  
 
 
 </template>
