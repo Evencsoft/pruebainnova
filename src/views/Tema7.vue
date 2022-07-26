@@ -22,8 +22,12 @@
     .titulo-segundo.color-acento-contenido
       h2 Estructura del componente
       
-    .bg--gradientBlue.p-5.mb-5
+    .bg--gradientBlue.p-5
       SlyderB(:datos="datosSlyder")
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_imagenes.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1

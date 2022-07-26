@@ -47,7 +47,7 @@
     #t_10_1.titulo-segundo.color-acento-contenido
       h2 10.1 Pestañas verticales    
 
-    TabsA.color-acento-botones.mb-5
+    TabsA.color-acento-botones
       .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
         h4 PASO 1: The splendor
         p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
@@ -67,7 +67,10 @@
               strong user style sheets
               |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsA.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
@@ -145,7 +148,7 @@
     #t_10_2.titulo-segundo.color-acento-contenido
       h2 10.2 Pestañas horizontales - sencillas 
 
-    TabsC.color-primario.mb-5
+    TabsC.color-primario
       .py-3.py-md-4(titulo="The splendor of the mystery")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -165,7 +168,10 @@
           .col-md-6
             h4 Celebrate your failures 2
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.         
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsC.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
@@ -242,7 +248,7 @@
     #t_10_3.titulo-segundo.color-acento-contenido
       h2 10.3 Pestañas horizontales - iconos
 
-    TabsB.color-primario.mb-5
+    TabsB.color-primario
       .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -262,7 +268,10 @@
           .col-md-6
             h4 Celebrate your failures 2
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsB.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       

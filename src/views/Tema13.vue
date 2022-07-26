@@ -50,7 +50,7 @@
     #t_13_1.titulo-segundo.color-acento-contenido
       h2 13.1 Tarjetas - avatar
 
-    .row.mb-5
+    .row
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
@@ -90,7 +90,10 @@
 
           h3.text-center Intuition important
           p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_avatar.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
@@ -157,7 +160,7 @@
     #t_13_2.titulo-segundo.color-acento-contenido
       h2 13.2 Tarjetas - conectadas
 
-    .tarjeta--container.row.mb-5
+    .tarjeta--container.row
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
           .col-6
@@ -182,7 +185,10 @@
           
         h2.text-center Sterility leads to<br>susceptibility
         p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-primario.b--rad(:href="obtenerLink('/downloads/Tarjetas_conectadas.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
@@ -256,7 +262,7 @@
     #t_13_3.titulo-segundo.color-acento-contenido
       h2 13.3 Tarjetas - animadas
 
-    .row.mb-5
+    .row
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -289,7 +295,10 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               h1 John Doe
               p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_animadas.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       

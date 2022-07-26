@@ -30,7 +30,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Infografía puntos calientes
 
-    ImagenInfografica.color-primario.mb-5
+    ImagenInfografica.color-primario
       template(v-slot:imagen)
         figure
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
@@ -47,7 +47,10 @@
       .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
         .h5.mb-2 titulo
         p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Infografia_puntos_calientes.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
 
     .row
       .col-lg-12.order-2.order-lg-1
@@ -178,7 +181,7 @@
       h2 2.2  Infografía ventanas modales
 
 
-    ImagenInfograficaB.color-primario.mb-5
+    ImagenInfograficaB.color-primario
       template(v-slot:imagen)
         figure
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
@@ -197,7 +200,10 @@
       div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
         .h5.mb-2 titulo
         p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Infografia_ventanas_modales.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
 
     .row
       .col-lg-12.order-2.order-lg-1
@@ -495,15 +501,13 @@
                         figure
                           img(src="@/assets/curso/temas/infografia/t1_13.png", alt="alt", style="width:400px;").m-auto
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.my-5
       .col-auto
         a.anexo(href="https://drive.google.com/file/d/1rk5d28KabWs8h4GMSPJWhBcTuobXmjJS/view?usp=sharing" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra  
-
-
+            p Formato instruccional - muestra 
 </template>
 
 <script>

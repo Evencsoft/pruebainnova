@@ -45,7 +45,7 @@
     separador
     #t_12_1.titulo-segundo.color-acento-contenido
       h2 12.1 Pasos - verticales
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-between.align-items-center
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Praesent luctus")
@@ -71,11 +71,35 @@
                 img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
                 figcaption Leyenda de la imagen
             .col-md-6.mb-4.mb-md-0
-              p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.               
+              p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
+        .row.justify-content-end.mb-5.me-3
+          .col-auto
+            a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/LineaTiempoD.vue')" target="_blank" type="application/pdf")
+              span Ver código fuente                            
       .col-md-6.mb-5.mb-md-0            
-        figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen                  
+        PasosA.color-acento-botones(tipo="n")
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h5 Lorem ipsum dolor sit amet.
+              p This is another paragraph. I think it needs to be added that the set of elements tested is 
+            .col-md-6
+              figure
+                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                figcaption Leyenda de la imagen
+
+          .row
+            .col-md-6.mb-4.mb-md-0
+              figure
+                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                figcaption Leyenda de la Imagen
+            .col-md-6
+              h5 Nullam vulputate mauris eros, ut.
+              p This is another paragraph. I think it needs to be added that the set of elements tested 
+        .row.justify-content-end.mb-5.me-3
+          .col-auto
+            a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/PasosA.vue')" target="_blank" type="application/pdf")
+              span Ver código fuente              
+              
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
@@ -187,7 +211,7 @@
     #t_12_2.titulo-segundo.color-acento-contenido
       h2 12.2 Pasos - horizontales
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.tarjeta--gris.p-4
       PasosB.color-primario
         .row(titulo="Palabra")
           .col-md-6.mb-4.mb-md-0
@@ -207,7 +231,10 @@
             figure
               img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
               figcaption Leyenda de la imagen
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/PasosB.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       

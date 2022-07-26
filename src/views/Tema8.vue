@@ -55,7 +55,7 @@
     .titulo-segundo.color-acento-contenido
       h2 Estructura del componente
       
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -111,7 +111,10 @@
             img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
         h2.text-center LAST
         p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
+    .row.justify-content-end.mb-5.me-5
+      .col-3
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Carrusel.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       

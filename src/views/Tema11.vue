@@ -36,7 +36,7 @@
     #t_11_1.titulo-segundo.color-acento-contenido
       h2 11.1 Línea de tiempo - vertical
     
-    LineaTiempoE.color-primario.mb-5
+    LineaTiempoE.color-primario
       .row(titulo="2014 - Present" subtitulo="Title, Company")
         .col-lg-6.mb-4.mb-lg-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -52,7 +52,10 @@
             figcaption Leyenda de la imagen      
         .col-lg-6.mb-4.mb-lg-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/LineaTiempoE.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
@@ -135,7 +138,7 @@
     #t_11_2.titulo-segundo.color-acento-contenido
       h2 11.2 Línea de tiempo - horizontal
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.tarjeta--gris.p-4
       LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="1761")
           .col-md-6.mb-4.mb-md-0
@@ -165,7 +168,10 @@
             figure
               img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
               figcaption Leyenda de la imagen
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/LineaTiempoC.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       

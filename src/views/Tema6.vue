@@ -43,7 +43,7 @@
 
     p.mb-4 Provee mayor espacio para la explicación textual así que es óptima para la definición de conceptos completos y extensos. No se asocia a pasos específicos o tipificaciones sino que puede abarcar una temática completa dividida en secciones.
 
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .tarjeta.tarjeta--azul.p-4
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
@@ -62,6 +62,10 @@
 
           .col-md-6.mb-4.mb-md-0
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_simple.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
@@ -145,7 +149,6 @@
             p Formato instruccional - muestra
 
     separador
-
     #t_6_2.titulo-segundo.color-acento-contenido
       h2 6.2 Slide navegación con numerales.
 
@@ -155,7 +158,7 @@
 
     p.mb-4 Se recomienda usar máximo 10 pasos y mínimo 4.
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.tarjeta--gris.p-4
       PasosB.color-acento-contenido
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
@@ -173,6 +176,10 @@
               figcaption Leyenda de la imagen
           .col-md-6.mb-4.mb-md-0
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_con_numerales.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
@@ -269,15 +276,13 @@
                   .anexo__texto
                     p Formato instruccional - muestra
 
-
     separador
-
     #t_6_3.titulo-segundo.color-acento-contenido
       h2 6.3 Slide navegación con títulos.
 
     p.mb-4 Es para textos un poco más extensos que en el tipo anterior y la imagen puede ser más ilustrativa. Ideal para explicar fases, etapas, acontecimientos (línea de tiempo) o procedimientos. Cada diapositiva tendrá un nombre referente a su contenido. Se recomienda usar máximo 10 pasos y mínimo 4.
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.tarjeta--gris.p-4
       PasosB.color-acento-contenido
         .row(titulo="Titulo 1")
           .col-md-6.mb-4.mb-md-0
@@ -295,10 +300,14 @@
               figcaption Leyenda de la imagen
           .col-md-6.mb-4.mb-md-0
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_numero_titulo.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente            
 
     hr.my-5
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.tarjeta--gris.p-4
       LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="Titulo 3")
           .col-md-6.mb-4.mb-md-0
@@ -318,7 +327,10 @@
 
           .col-md-6.mb-4.mb-md-0
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_titulo.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente  
 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1

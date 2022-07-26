@@ -25,7 +25,7 @@
     #t_9_1.titulo-segundo.color-acento-contenido
       h2 9.1 Acordeón - tipo 1
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Titulo item 1")
         .col-md-6.mb-4.mb-md-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -39,7 +39,10 @@
         figure
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
           figcaption Leyenda de la imagen
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/AcordionA.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
@@ -102,7 +105,7 @@
     #t_9_2.titulo-segundo.color-acento-contenido
       h2 9.2 Acordeón - tipo 2 
 
-    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Titulo item 1")
         .col-md-6.mb-4.mb-md-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -120,7 +123,10 @@
 
         .col-md-6.mb-4.mb-md-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/AcordionB.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       

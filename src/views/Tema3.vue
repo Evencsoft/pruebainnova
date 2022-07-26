@@ -33,7 +33,7 @@
       h2 Ejemplos destacados
 
     img(src='@/assets/curso/temas/audio/15.svg', alt='Texto que describa la imagen')
-    .row.justify-content-center.mb-5.g-0
+    .row.justify-content-center.g-0
       .col-lg-4
         .tarjeta.clr--pink.p-4.rounded-0.h-100
           .tarjeta.bg-white.p-4
@@ -60,7 +60,10 @@
             :audio="require('@/assets/curso/temas/audio/7.mp3')"
           )
             p.mb-0 Muy bien, entrenador. Voy a seguir su consejo.
-
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Audio.vue')" target="_blank" type="application/pdf")
+          span Ver código fuente
   
 
 </template>
