@@ -26,7 +26,7 @@
       SlyderB(:datos="datosSlyder")
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_imagenes.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_imagenes.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
 
     .row.mb-5

@@ -64,7 +64,7 @@
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_simple.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_simple.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
 
     .row.mb-5
@@ -178,7 +178,7 @@
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_con_numerales.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_con_numerales.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
 
     .row.mb-5
@@ -302,7 +302,7 @@
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_numero_titulo.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_numero_titulo.txt')" target="_blank" type="application/pdf")
           span Ver código fuente            
 
     hr.my-5
@@ -329,7 +329,7 @@
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_titulo.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_titulo.txt')" target="_blank" type="application/pdf")
           span Ver código fuente  
 
     .row.mb-5

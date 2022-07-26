@@ -69,7 +69,7 @@
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsA.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsA.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
@@ -170,7 +170,7 @@
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.         
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsC.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsC.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
@@ -270,7 +270,7 @@
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsB.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsB.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1

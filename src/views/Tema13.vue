@@ -92,7 +92,7 @@
           p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_avatar.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_avatar.txt')" target="_blank" type="application/pdf")
           span Ver código fuente 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
@@ -187,7 +187,7 @@
         p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-primario.b--rad(:href="obtenerLink('/downloads/Tarjetas_conectadas.vue')" target="_blank" type="application/pdf")
+        a.boton.color-primario.b--rad(:href="obtenerLink('/downloads/Tarjetas_conectadas.txt')" target="_blank" type="application/pdf")
           span Ver código fuente 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
@@ -297,7 +297,7 @@
               p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_animadas.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_animadas.txt')" target="_blank" type="application/pdf")
           span Ver código fuente 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1

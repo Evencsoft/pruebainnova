@@ -62,7 +62,7 @@
             p.mb-0 Muy bien, entrenador. Voy a seguir su consejo.
     .row.justify-content-end.mb-5.me-3
       .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Audio.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Audio.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
   
 

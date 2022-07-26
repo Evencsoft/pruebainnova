@@ -113,7 +113,7 @@
         p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
     .row.justify-content-end.mb-5.me-5
       .col-3
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Carrusel.vue')" target="_blank" type="application/pdf")
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Carrusel.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1

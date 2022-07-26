@@ -41,9 +41,9 @@
       template(#descripcion-actividad) Escuche los audios y complete los espacios en blanco de cada una de las frases arrastrando el término correcto.   
     .row.justify-content-end.mb-2.me-3
       .col-auto
-        a.boton.color-primario.b--rad(:href="obtenerLink('/downloads/Dialogo.vue')" target="_blank" type="application/pdf")
+        a.boton.color-primario.b--rad(:href="obtenerLink('/downloads/Dialogo.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
-          
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .tarjeta.color-primario.p-3
