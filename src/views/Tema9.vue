@@ -183,7 +183,76 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra   
+            p Formato instruccional - muestra 
+
+    separador
+    #t_9_3.titulo-segundo.color-acento-contenido
+      h2 9.3 Acordeón connumeral/pasos
+    .row.justify-content-center.align-items-top
+      .col-md-6.mb-5.mb-md-0
+        img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+      
+      .col-md-6.mb-5.mb-md-0
+        LineaTiempoD.color-primario
+          .row(numero="1" titulo="Praesent luctus")
+            .col-md-6.mb-4.mb-md-0
+              p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+          
+            .col-md-6
+              figure
+                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                figcaption Leyenda de la imagen
+
+          .row(numero="2" titulo="Praesent luctus")
+            .col-md-6
+              figure
+                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                figcaption Leyenda de la imagen
+            .col-md-6.mb-4.mb-md-0
+              p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.  
+
+          .row(numero="3" titulo="Praesent luctus")
+            .col-md-6
+              figure
+                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                figcaption Leyenda de la imagen
+            .col-md-6.mb-4.mb-md-0
+              p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
+
+        .row.justify-content-end.mb-5.me-3
+          .col-auto
+            a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/LineaTiempoD.txt')" target="_blank" type="application/pdf")
+              span Ver código fuente 
+
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Ejemplo
+      span Acordeón connumeral/pasos
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        LineaTiempoD.color-secundario
+          p(numero="1" titulo="Precisión") La calidad de los datos se caracteriza por informes precisos y no confundir al responsable del tratamiento de esa información.
+
+          p(numero="2" titulo="Integridad") Debe asegurarse que los datos transferidos o almacenados estén completos.
+
+          p(numero="3" titulo="Presentación") La forma de visualizar un conjunto de datos es muy importante, debe permitir una excelente legibilidad y comprensión. Por lo tanto, se espera que los datos cuenten con una estructura muy bien organizada al momento de hacer su lectura y posteriormente procesarlos. 
+
+          p(numero="4" titulo="Consistencia") Los datos conservan su valor después del procesamiento. Se espera que esto sea consistente y verificable. 
+
+          p(numero="5" titulo="Validez") Los datos deben estar en el mismo formato original independientemente de la ubicación, de modo que todos coincidan cuando ejecute el proceso de validación. 
+
+          p(numero="6" titulo="Disponibilidad") Al momento de solicitar la información, esta debe estar disponible.
+      .col-8.col-lg-4
+        figure
+          img.l(src="@/assets/curso/temas/pasos/pasos_vert_00.png", alt="alt")          
+    .row.justify-content-center
+      .col-auto
+        a.anexo(href="https://drive.google.com/file/d/1-45Y5mcNP0l5NFfMO8_wL-BWzpUylpZO/view?usp=sharing" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Formato instruccional - muestra  
+                             
 </template>
 
 <script>
