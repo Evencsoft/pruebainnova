@@ -203,6 +203,12 @@ export default {
             titulo: 'Acordeón - tipo 2',
             hash: 't_9_2',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '9.3',
+            titulo: 'Acordeón con numeral / pasos',
+            hash: 't_9_3',
+          },
         ],
       },
       {
