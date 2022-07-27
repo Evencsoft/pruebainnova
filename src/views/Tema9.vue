@@ -187,7 +187,7 @@
 
     separador
     #t_9_3.titulo-segundo.color-acento-contenido
-      h2 9.3 Acordeón connumeral/pasos
+      h2 9.3 Acordeón con numeral / pasos
     .row.justify-content-center.align-items-top
       .col-md-6.mb-5.mb-md-0
         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
