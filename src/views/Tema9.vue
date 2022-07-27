@@ -23,7 +23,7 @@
     
     separador
     #t_9_1.titulo-segundo.color-acento-contenido
-      h2 9.1 Acordeón - tipo 1
+      h2 9.1 Acordeón (con viñeta en la izquierda) - tipo 1
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Titulo item 1")
@@ -103,7 +103,7 @@
 
     separador
     #t_9_2.titulo-segundo.color-acento-contenido
-      h2 9.2 Acordeón - tipo 2 
+      h2 9.2 Acordeón (con viñeta en la derecha) - tipo 2 
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Titulo item 1")
