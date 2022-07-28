@@ -26,7 +26,7 @@
                   h4.mb-1 Formato instruccional - Video
                   p.text-small.mb-0 Formato de Diseño Instruccional para la creación de videos. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/formato_4_video_guion_literario.pptx')" target="_blank")
+                  a.boton.color-acento-botones(href="https://docs.google.com/document/d/13JiM2kfIhjBIJj-l5IqxGvQHRqmNg5rRsr64vxJRuss/edit?usp=sharing" target="_blank")
                     span Descargar
                     i.fas.fa-file-download    
 
@@ -84,7 +84,7 @@
 
         .row.justify-content-center
           .col-auto
-            a.anexo(:href="obtenerLink('/downloads/formato_4_video_guion_literatio_ejemplo_1.pptx')" target="_blank")
+            a.anexo(href="https://drive.google.com/file/d/1yvBvIqJxHCSq8734FBVdl52nBYoTDBjh/view?usp=sharing" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-ppt.svg")
               .anexo__texto
@@ -122,7 +122,7 @@
 
         .row.justify-content-center
           .col-auto
-            a.anexo(:href="obtenerLink('/downloads/formato_4_video_guion_literatio_ejemplo_2.pptx')" target="_blank")
+            a.anexo(href="https://drive.google.com/file/d/1ZjgDpRtYsL0Y1u5FDbtFo8DDGCtTqJx2/view?usp=sharing" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-ppt.svg")
               .anexo__texto
@@ -160,7 +160,7 @@
 
         .row.justify-content-center
           .col-auto
-            a.anexo(:href="obtenerLink('/downloads/formato_4_video_guion_literatio_ejemplo_3.pptx')" target="_blank")
+            a.anexo(href="https://drive.google.com/file/d/1qVoTkE9LBlNxjuc62QfbtPXJBewyHww1/view?usp=sharing" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-ppt.svg")
               .anexo__texto
@@ -250,7 +250,7 @@
 
           .row.justify-content-center
             .col-auto
-              a.anexo(:href="obtenerLink('/downloads/formato_4_video_guion_literatio_ejemplo_5.pptx')" target="_blank")
+              a.anexo(href="https://drive.google.com/file/d/18NDMLf3aUXkkCdZUb6aJbYFvyTIA5bOn/view?usp=sharing" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-ppt.svg")
                 .anexo__texto
