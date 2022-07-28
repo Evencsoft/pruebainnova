@@ -217,46 +217,26 @@
                 i.fas.fa-angle-right.txt--orange
                 | Calidad de video: FHD - 1920*1080. Software recomendado OBS Studio.                       
 
-                
-
-
-
-
-          
-
     TabsA.color-acento-botones.mb-5    
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 1")
-        figure.mb-4
+        figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/ypl9CSSDRZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
-
-        .row.justify-content-center
-            .col-auto
-              a.anexo(:href="obtenerLink('/downloads/formato_4_video_guion_literatio_ejemplo_4.pptx')" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-ppt.svg")
-                .anexo__texto
-                  p Formato instruccional - muestra           
-
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/1p9t9ymdH6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+      
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 2")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/QX6KE8AAjPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/mgvJvJ_OO2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 3")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/mgvJvJ_OO2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)             
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/j_4Cm4ZZWQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 4")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 3")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2Ch8XZKPBng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)              
-
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 5")
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/j_4Cm4ZZWQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)          
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/xkfoHMVK2Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)     
 
     #t_4_5
     h3.mb-5 #[i.fas.fa-angle-double-right.txt--orange] Video - oferta del programa
