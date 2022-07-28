@@ -307,9 +307,9 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '13.3',
+            numero: '13.4',
             titulo: 'Tarjetas con número',
-            hash: 't_13_3',
+            hash: 't_13_4',
           },
         ],
       },
