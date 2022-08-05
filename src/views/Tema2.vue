@@ -62,16 +62,13 @@
                 | Título corto
               li
                 i.fas.fa-angle-right.txt--orange
-                | <b>Texto descriptivo:</b> &nbsp;colocar una breve descripción del tema que se aborda en la infografía.
+                | #[strong Texto descriptivo]: Colocar una breve descripción del tema que se aborda en la infografía.
               li
                 i.fas.fa-angle-right.txt--orange
-                | <b>Imagen de referencia:</b> &nbsp;Describir y/o colocar una imagen de referencia, de la infografía solicitada.
+                | #[strong Imagen de referencia]: Describir y/o colocar una imagen de referencia, de la infografía solicitada.
               li
                 i.fas.fa-angle-right.txt--orange
                 | #[strong Puntos calientes]: Título y texto que se despliega en cada punto interactivo. #[strong (MÁXIMO 10 PUNTOS INTERACTIVOS)]
-
-
-
 
 
             p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de la infografía.
@@ -169,13 +166,13 @@
                 | Título corto
               li
                 i.fas.fa-angle-right.txt--orange
-                | <b>Texto introductorio:</b> &nbsp;colocar una breve descripción del tema que se aborda en la infografía.
+                | #[strong Texto descriptivo]: Colocar una breve descripción del tema que se aborda en la infografía.
               li
                 i.fas.fa-angle-right.txt--orange
-                | <b>Imagen de referencia:</b> &nbsp;Describir y/o colocar una imagen de referencia, de la infografía solicitada.
+                | #[strong Imagen de referencia]: Describir y/o colocar una imagen de referencia, de la infografía solicitada.
               li
                 i.fas.fa-angle-right.txt--orange
-                | Título y texto que se despliega en cada punto interactivo.
+                | #[strong Puntos modales]: Título y texto que se despliega en cada punto interactivo. #[strong (MÁXIMO 12 PUNTOS MODALES)]
 
 
             p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de la infografía.
