@@ -15,12 +15,12 @@
         .crd.clr-paleYellow.p-4.mb-4
           p.mb-0 Un acordeón está formado por regiones desplegables que permiten mostrar u ocultar contenido pulsando sobre un botón.
 
-        p Es un recurso que a simple vista no ocupa mayor espacio dado que la información está oculta dentro de botones desplegables. Consta de una imagen general al tema acompañada de las respectivas explicaciones. 
+        p Es un recurso que a simple vista no ocupa mayor espacio dado que la información está oculta dentro de botones desplegables. Consta de una imagen general al tema acompañada de las respectivas explicaciones.
 
-        p Ya que no demanda una imagen para cada botón puede usarse en caso de contar con una explicación muy grande, seccionada en subtítulos, igualmente para tipificaciones, fases, etapas, pasos o procedimientos con definiciones grandes. 
+        p Ya que no demanda una imagen para cada botón puede usarse en caso de contar con una explicación muy grande, seccionada en subtítulos, igualmente para tipificaciones, fases, etapas, pasos o procedimientos con definiciones grandes.
 
-        p Su uso se recomienda cuando las secciones están estrechamente relacionadas con la introducción y se hace necesario que esta esté hilada constantemente. 
-    
+        p Su uso se recomienda cuando las secciones están estrechamente relacionadas con la introducción y se hace necesario que esta esté hilada constantemente.
+
     separador
     #t_9_1.titulo-segundo.color-acento-contenido
       h2 9.1 Acordeón (con viñeta en la izquierda) - tipo 1
@@ -29,7 +29,7 @@
       .row(titulo="Titulo item 1")
         .col-md-6.mb-4.mb-md-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      
+
         .col-md-6
           figure
             img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
@@ -45,15 +45,15 @@
           span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones       
+        TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
-              li 
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Titulo corto e ilustrativo (cuando aplica).
-              li 
+                | Titulo corto de máximo 8 palabras
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+                | Cada opción del acordeón debe ir acompañada de un texto de máximo 60 palabras y puede ir acompañado de una  foto o ilustración.
               .tarjeta.color-primario.p-3
                 .row.justify-content-around.align-items-center
                   .col-auto
@@ -62,11 +62,11 @@
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
                         h4.mb-1 Formato instruccional - Acordeones
-                        p.text-small.mb-0 Formato de Diseño Instruccional para la creación de un acordeón. 
+                        p.text-small.mb-0 Formato de Diseño Instruccional para la creación de un acordeón.
                       .col-sm-auto
                         a.boton.color-acento-botones(href="https://docs.google.com/document/d/1ojd75qS-nmacZ1P0AaHxt-56VS9Gezhbf_V-sVsJuH4/edit?usp=sharing" target="_blank")
                           span Descargar
-                          i.fas.fa-file-download     
+                          i.fas.fa-file-download
 
     p.mb-4 A continuación, se destacan cuatro ejes principales que tienen que ver con las exigencias de calidad para el cliente, la mejora continua, satisfacción del cliente y la reglamentación en el cumplimiento de la norma, y en el siguiente recurso se detallan cada una de ellas.
 
@@ -79,7 +79,7 @@
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="ISO 9000, (2005) Sistemas de Gestión de la Calidad. Definiciones y fundamentos")
               .col-12
-                p.mb-0 Establece un punto de partida para comprender las normas y define los términos fundamentales utilizados en la familia de normas ISO 9000, que se necesitan para evitar malentendidos en su utilización, especificando el vocabulario clave a utilizar dentro del proceso. 
+                p.mb-0 Establece un punto de partida para comprender las normas y define los términos fundamentales utilizados en la familia de normas ISO 9000, que se necesitan para evitar malentendidos en su utilización, especificando el vocabulario clave a utilizar dentro del proceso.
 
             .row(titulo="ISO 9001(2015). Sistemas de Gestión de la Calidad. Requisitos")
               .col-12
@@ -99,17 +99,17 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra                
+            p Formato instruccional - muestra
 
     separador
     #t_9_2.titulo-segundo.color-acento-contenido
-      h2 9.2 Acordeón (con viñeta en la derecha) - tipo 2 
+      h2 9.2 Acordeón (con viñeta en la derecha) - tipo 2
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Titulo item 1")
         .col-md-6.mb-4.mb-md-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      
+
         .col-md-6
           figure
             img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
@@ -129,15 +129,15 @@
           span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones       
+        TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
-              li 
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Titulo corto e ilustrativo (cuando aplica).
-              li 
+                | Titulo corto de máximo 8 palabras
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+                | Cada opción del acordeón debe ir acompañada de un texto de máximo 60 palabras y puede ir acompañado de una  foto o ilustración.
               .tarjeta.color-primario.p-3
                 .row.justify-content-around.align-items-center
                   .col-auto
@@ -146,11 +146,11 @@
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
                         h4.mb-1 Formato instruccional - Acordeones
-                        p.text-small.mb-0 Formato de Diseño Instruccional para la creación de un acordeón. 
+                        p.text-small.mb-0 Formato de Diseño Instruccional para la creación de un acordeón.
                       .col-sm-auto
                         a.boton.color-acento-botones(href="https://docs.google.com/document/d/1ojd75qS-nmacZ1P0AaHxt-56VS9Gezhbf_V-sVsJuH4/edit?usp=sharing" target="_blank")
                           span Descargar
-                          i.fas.fa-file-download        
+                          i.fas.fa-file-download
 
     .row.justify-content-center
       .col-lg-8
@@ -160,30 +160,30 @@
           .row(titulo="Fase 1: Etapa analítica - Acopio")
             .col-12
               p Es la primera etapa de todo proceso productivo, ya que allí se reúnen las materias primas que serán utilizadas en la fabricación de algún producto.
-              p.mb-0 Es acá donde las empresas se centran en conseguir la mayor cantidad de insumos posibles y al menor costo. En esta etapa se debe tener en cuenta los costos de almacenamiento y transporte.   
+              p.mb-0 Es acá donde las empresas se centran en conseguir la mayor cantidad de insumos posibles y al menor costo. En esta etapa se debe tener en cuenta los costos de almacenamiento y transporte.
 
           .row(titulo="Fase 2: Etapa de síntesis - Producción")
             .col-12
-              p En el transcurso de esta etapa es donde las materias primas que se recolectaron previamente pasan por un proceso de transformación, para obtener el producto final que la organización va a comercializar. 
-              p Acá es necesario que se definan los diferentes estándares de calidad y sus respectivos controles. 
-              p.mb-0 Es de vital importancia que se realice un trabajo exhaustivo de observación y de monitoreo, para que se puedan anticipar cambios y dar cumplimiento a los objetivos pactados. 
+              p En el transcurso de esta etapa es donde las materias primas que se recolectaron previamente pasan por un proceso de transformación, para obtener el producto final que la organización va a comercializar.
+              p Acá es necesario que se definan los diferentes estándares de calidad y sus respectivos controles.
+              p.mb-0 Es de vital importancia que se realice un trabajo exhaustivo de observación y de monitoreo, para que se puedan anticipar cambios y dar cumplimiento a los objetivos pactados.
 
           .row(titulo="Fase 3: Etapa de acondicionamiento - Procesamiento")
             .col-12
               p Es la etapa final del proceso donde se adapta el producto a las necesidades del cliente, para la comercialización, el transporte y almacenamiento, al igual que en la etapa analítica juegan un papel crucial, ya que se debe tener un control del producto terminado y unas condiciones adecuadas, para que no se arruine el producto de ninguna manera.
-              p.mb-0 Una vez que el producto sea entregado, también es necesario realizar un control que permita establecer si el producto que se entregó cumple con los objetivos y los estándares de calidad que fueron previamente establecidos. 
-   
+              p.mb-0 Una vez que el producto sea entregado, también es necesario realizar un control que permita establecer si el producto que se entregó cumple con los objetivos y los estándares de calidad que fueron previamente establecidos.
+
       .col-lg-4.d-none.d-lg-flex
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/acordeones/acord_B_01.png", alt="alt").m-auto
-    
+
     .row.justify-content-center
       .col-auto
         a.anexo(href="https://drive.google.com/file/d/1o4D8dNAl1gVLifWAbT7ut53ALsdZ7iVN/view?usp=sharing" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra 
+            p Formato instruccional - muestra
 
     separador
     #t_9_3.titulo-segundo.color-acento-contenido
@@ -191,13 +191,13 @@
     .row.justify-content-center.align-items-top
       .col-md-6.mb-5.mb-md-0
         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      
+
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Praesent luctus")
             .col-md-6.mb-4.mb-md-0
               p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
+
             .col-md-6
               figure
                 img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
@@ -209,7 +209,7 @@
                 img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
                 figcaption Leyenda de la imagen
             .col-md-6.mb-4.mb-md-0
-              p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.  
+              p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
           .row(numero="3" titulo="Praesent luctus")
             .col-md-6
@@ -217,12 +217,39 @@
                 img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
                 figcaption Leyenda de la imagen
             .col-md-6.mb-4.mb-md-0
-              p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
+              p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
         .row.justify-content-end.mb-5.me-3
           .col-auto
             a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/LineaTiempoD.txt')" target="_blank" type="application/pdf")
-              span Ver código fuente 
+              span Ver código fuente
+
+
+    .row.mb-5
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
+            ul.lista-ul.mb-4
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Titulo corto de máximo 8 palabras asociado a un numeral
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Cada opción del acordeón debe ir acompañada de un texto de máximo 45 palabras y puede ir acompañado de una  foto o ilustración.
+              .tarjeta.color-primario.p-3
+                .row.justify-content-around.align-items-center
+                  .col-auto
+                    img(src="@/assets/template/document.svg").img65
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h4.mb-1 Formato instruccional - Acordeones
+                        p.text-small.mb-0 Formato de Diseño Instruccional para la creación de un acordeón.
+                      .col-sm-auto
+                        a.boton.color-acento-botones(href="https://docs.google.com/document/d/1ojd75qS-nmacZ1P0AaHxt-56VS9Gezhbf_V-sVsJuH4/edit?usp=sharing" target="_blank")
+                          span Descargar
+                          i.fas.fa-file-download
+
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
@@ -235,24 +262,24 @@
 
           p(numero="2" titulo="Integridad") Debe asegurarse que los datos transferidos o almacenados estén completos.
 
-          p(numero="3" titulo="Presentación") La forma de visualizar un conjunto de datos es muy importante, debe permitir una excelente legibilidad y comprensión. Por lo tanto, se espera que los datos cuenten con una estructura muy bien organizada al momento de hacer su lectura y posteriormente procesarlos. 
+          p(numero="3" titulo="Presentación") La forma de visualizar un conjunto de datos es muy importante, debe permitir una excelente legibilidad y comprensión. Por lo tanto, se espera que los datos cuenten con una estructura muy bien organizada al momento de hacer su lectura y posteriormente procesarlos.
 
-          p(numero="4" titulo="Consistencia") Los datos conservan su valor después del procesamiento. Se espera que esto sea consistente y verificable. 
+          p(numero="4" titulo="Consistencia") Los datos conservan su valor después del procesamiento. Se espera que esto sea consistente y verificable.
 
-          p(numero="5" titulo="Validez") Los datos deben estar en el mismo formato original independientemente de la ubicación, de modo que todos coincidan cuando ejecute el proceso de validación. 
+          p(numero="5" titulo="Validez") Los datos deben estar en el mismo formato original independientemente de la ubicación, de modo que todos coincidan cuando ejecute el proceso de validación.
 
           p(numero="6" titulo="Disponibilidad") Al momento de solicitar la información, esta debe estar disponible.
       .col-8.col-lg-4
         figure
-          img.l(src="@/assets/curso/temas/pasos/pasos_vert_00.png", alt="alt")          
+          img.l(src="@/assets/curso/temas/pasos/pasos_vert_00.png", alt="alt")
     .row.justify-content-center
       .col-auto
         a.anexo(href="https://drive.google.com/file/d/1-45Y5mcNP0l5NFfMO8_wL-BWzpUylpZO/view?usp=sharing" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra  
-                             
+            p Formato instruccional - muestra
+
 </template>
 
 <script>

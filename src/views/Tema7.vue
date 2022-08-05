@@ -13,15 +13,15 @@
           img(src="@/assets/curso/temas/sliders/Slider.svg", alt="alt")
       .col-lg-6
         .crd.clr-paleYellow.p-4.mb-4
-          p.mb-0 El Slider de imágenes es un componente web que permite mostrar de manera secuencial múltiples imágenes y textos. En algunos casos se puede hacer uso de componentes interactivos sencillos dentro de cada una de las diapositivas.  
+          p.mb-0 El Slider de imágenes es un componente web que permite mostrar de manera secuencial múltiples imágenes y textos. En algunos casos se puede hacer uso de componentes interactivos sencillos dentro de cada una de las diapositivas.
 
-        p Es una secuencia de diapositivas cuyo texto es corto y se refiere únicamente a la definición, explicación o especificación de la imagen que se está mostrando. Se le dará un uso óptimo al momento de explicar gráficos estadísticos, descripción de procesos físicos, químicos o biológicos; tipos de circuitos, conexiones etc. Todo aquello donde el protagonismo lo lleve la imagen.                  
+        p Es una secuencia de diapositivas cuyo texto es corto y se refiere únicamente a la definición, explicación o especificación de la imagen que se está mostrando. Se le dará un uso óptimo al momento de explicar gráficos estadísticos, descripción de procesos físicos, químicos o biológicos; tipos de circuitos, conexiones etc. Todo aquello donde el protagonismo lo lleve la imagen.
 
-    separador    
+    separador
 
     .titulo-segundo.color-acento-contenido
       h2 Estructura del componente
-      
+
     .bg--gradientBlue.p-5
       SlyderB(:datos="datosSlyder")
     .row.justify-content-end.mb-5.me-3
@@ -31,15 +31,15 @@
 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones       
+        TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
-              li 
+              li
                 i.fas.fa-angle-right.txt--orange
                 | Titulo corto e ilustrativo (cuando aplica).
-              li 
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración. 
+                | Cada diapositiva debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una  foto o ilustración.
 
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center
@@ -49,18 +49,18 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       h4.mb-1 Formato instruccional - slider de imágenes
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de sliders de imágenes. 
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de sliders de imágenes.
                     .col-sm-auto
                       a.boton.color-acento-botones(href="https://docs.google.com/document/d/1PPRatnr8cI2Hxkv8hzg_e3qw3N0FVQs3yvO0rZLNaJE/edit?usp=sharing" target="_blank")
                         span Descargar
-                        i.fas.fa-file-download                  
+                        i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
-      span slider de imágenes 
+      span slider de imágenes
 
     .bg--gradientBlue.p-5.mb-4
-      SlyderB(:datos="datosSlyderEjemplo") 
+      SlyderB(:datos="datosSlyderEjemplo")
 
     .row.justify-content-center
       .col-auto

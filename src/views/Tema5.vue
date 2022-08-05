@@ -13,213 +13,233 @@
           img(src="@/assets/curso/temas/actividad/actividad_didactica.svg", alt="alt")
       .col-lg-6
         .crd.clr-paleYellow.p-4
-          p.mb-0 Una actividad didáctica es el conjunto de componentes interactivos propuestas a los alumnos para alcanzar los objetivos determinados de aprendizaje. Una componente formativo puede incluir una o varias de estas actividades.
+          p.mb-0 Por cada componente formativo se puede proponer un máximo de dos actividades (mínimo debe ser 1) que los aprendices puedan realizar una vez han revisado los contenidos presentados y que refuercen la asimilación de los mismos.
 
-    .row
-      .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones      
-          .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
-            ul.lista-ul.mb-0
-              li 
-                i.fas.fa-angle-right.txt--orange
-                | Titulo de la actividad didáctica corto, ilustrativo y llamativo.
-              li 
-                i.fas.fa-angle-right.txt--orange
-                | Objetivo de la actividad didáctica
-    
-    separador    
-    .titulo-segundo.color-acento-contenido
-      h2 Ejemplos destacados
+        p.my-4 Entre las actividades propuestas se deben abordar todos los temas principales.
 
-    #t_5_1
-    Dialogo.color-primario(:dialogo="dialogo")
-      template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) Greeting the doctor. / Saludando al doctor.
-      template(#descripcion-actividad) Escuche los audios y complete los espacios en blanco de cada una de las frases arrastrando el término correcto.   
-    .row.justify-content-end.mb-2.me-3
-      .col-auto
-        a.boton.color-primario.b--rad(:href="obtenerLink('/downloads/Dialogo.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente
+        p Son actividades que no generan evaluación y que funcionarán independiente del LMS.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/document.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Arrastrar y Soltar
-                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://docs.google.com/document/d/1-YHtyjZ-8q4lfvD-bIXS-pneDhj6nYsq72-OYaKoVnw/edit?usp=sharing" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
-      .col-lg-4
-        a.anexo(href="https://drive.google.com/file/d/1ar_rm5Bm7WNjbWwbKoA6zLVmZEJM8AGc/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
-    
 
-    #t_5_2
-    .tarjeta.clr--gris.p-5.mb-2
-      .row.justify-content-around.align-items-center
-        .col-8.col-lg-5.mb-4.mb-md-0
-          img(src="@/assets/curso/temas/actividad/actividad_05.png").mb-3   
+    separador
 
-        .col-md.col-lg-6
-          h3 Cuestionario
-          p.mb-4 #[strong Falso o verdadero.] Lea la afirmación de cada ítem y seleccione la respuesta falso o verdadero según corresponda.          
-          a.boton.boton--b(:href="obtenerLink('/actividades/AD5/index.html')" target="_blank")
-            span Realizar
-            i.fas.fa-puzzle-piece     
+    #t_5_1.titulo-segundo.color-acento-contenido
+      h2 5.1 Cuestionarios
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/document.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Falso y verdadero
-                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://docs.google.com/document/d/1Vr_qgD6ZiqxyhMzAS1gkdI0FGaD_ks5D8OskJi2oQYM/edit?usp=sharing" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
-      .col-lg-4
-        a.anexo(href="https://drive.google.com/file/d/1SzLi3Z9ma3zaTttnRigWlsjgvYGxz1BC/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra     
-    
-
-    .tarjeta.clr--gris.p-5.mb-2
+    .tarjeta.clr--gris.p-5.mb-4
       .row.justify-content-around.align-items-center
         .col-8.col-lg-5.mb-4.mb-md-0
           img(src="@/assets/curso/temas/actividad/actividad_02.png").mb-3
 
         .col-md.col-lg-6
-          h3 Cuestionario
-          p.mb-4 #[strong Opción múltiple.] Lea la afirmación de cada ítem y luego señale la respuesta correcta según corresponda.
-          
+          h3 Ejemplo cuestionario
+          p.mb-4 #[strong Instrucciones.] Lea la afirmación de cada ítem y luego señale la respuesta correcta según corresponda.
+
           a.boton.boton--b(:href="obtenerLink('/actividades/AD2/index.html')" target="_blank")
             span Realizar
-            i.fas.fa-puzzle-piece   
+            i.fas.fa-puzzle-piece
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/document.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Opción múltiple
-                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://docs.google.com/document/d/1aKdgBE4ngvHjNUvPGqEyIDbvNYuqp-a_LwQnX6UjQUQ/edit?usp=sharing" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download 
-      .col-lg-4
-        a.anexo(href="https://drive.google.com/file/d/1SyzWK8iX2vuk2suiow4ntgcRjYUWJiCY/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra 
+
+    .row.mb-5
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos")
+            ul.lista-ul.mb-0
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Las indicaciones, el mensaje de correcto e incorrecto debe estar la redacción en segunda persona.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | El aprendiz recibe una retroalimentación cuando responde de manera correcta o incorrecta cada pregunta.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Al final de la actividad se muestra una retroalimentación de felicitación si logra el 70% de respuestas correctas o retroalimentación de mejora si es inferior a este porcentaje.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Las preguntas pueden ser de los siguientes tipos: Opción múltiple única respuesta, Falso o verdadero y opción múltiple con múltiple respuesta.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Por pregunta deben existir máximo 4 opciones de respuesta.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | El enunciado de cada pregunta debe contener máximo 35 palabras.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | La opción de respuesta debe contener máximo 20 palabras.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | El mensaje final de la actividad debe contener máximo 25 palabras.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | La retroalimentación de cada pregunta debe contener máximo 20 palabras.
+
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Se permite un máximo de 12 preguntas.
+
+            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de esta actividad
+
+            .tarjeta.color-primario.p-3
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/document.svg").img65
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4.mb-1 Formato instruccional - Cuestionario
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario.
+                    .col-sm-auto
+                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1aKdgBE4ngvHjNUvPGqEyIDbvNYuqp-a_LwQnX6UjQUQ/edit?usp=sharing" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download
+
+
+
+    #t_5_2.titulo-segundo.color-acento-contenido
+      h2 5.2 Relación de términos
 
     #t_5_3
     .tarjeta.clr--gris.p-5.mb-2
       .row.justify-content-around.align-items-center
         .col-8.col-lg-5.mb-4.mb-md-0
-          img(src="@/assets/curso/temas/actividad/actividad_01.png").mb-3         
+          img(src="@/assets/curso/temas/actividad/actividad_01.png").mb-3
 
         .col-md.col-lg-6
-          h3 Relación de términos
-          p.mb-4 #[strong Arrastrar y soltar coincidencias.] De acuerdo a la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha. 
+          h3 Ejemplo de relación de términos
+          p.mb-4 #[strong Arrastrar y soltar coincidencias.] De acuerdo a la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
           a.boton.boton--b(:href="obtenerLink('/actividades/AD1/index.html')" target="_blank")
             span Realizar
-            i.fas.fa-puzzle-piece      
-    
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/document.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Relación de términos
-                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://docs.google.com/document/d/12FF2I2EybN0AKoU5n-_PbNK3GN4ixjnbiv3YB7Qpwac/edit?usp=sharing" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download 
-      .col-lg-4
-        a.anexo(href="https://drive.google.com/file/d/1ofd_rdZXSI1flknF_JxOtHB29dO7WB9u/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra 
+            i.fas.fa-puzzle-piece
 
-    #t_5_4
-    .tarjeta.clr--gris.p-5.mb-2
+
+    .row.mb-5
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos")
+            ul.lista-ul.mb-0
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Las indicaciones, el mensaje de correcto e incorrecto debe estar la redacción en segunda persona.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Al final de la actividad se muestra una retroalimentación de felicitación si logra el 70% de respuestas correctas o retroalimentación de mejora si es inferior a este porcentaje.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Se permiten un máximo de 6 enunciados.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Cada enunciado debe contener máximo 20 palabras.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Cada término que se debe relacionar a un enunciado debe tener máximo 3 palabras.
+
+
+            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de esta actividad
+
+            .tarjeta.color-primario.p-3
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/document.svg").img65
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4.mb-1 Formato instruccional - Relación de términos
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo relación de términos
+                    .col-sm-auto
+                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/12FF2I2EybN0AKoU5n-_PbNK3GN4ixjnbiv3YB7Qpwac/edit?usp=sharing" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download
+
+
+    #t_5_3.titulo-segundo.color-acento-contenido
+      h2 5.3 Completar frases
+
+    #t_5_3
+    .tarjeta.clr--gris.p-5.mb-4
       .row.justify-content-around.align-items-center
         .col-8.col-lg-5.mb-4.mb-md-0
-          img(src="@/assets/curso/temas/actividad/actividad_03.png").mb-3         
+          img(src="@/assets/curso/temas/actividad/actividad_03.png").mb-3
 
         .col-md.col-lg-6
-          h3 Completar frases
-          p.mb-4 #[strong Completar frases.] Escuche los audios, complete los espacios en blanco de cada una de las frases y luego haga clic en el botón "Verificar respuesta"
-          
+          h3 Ejemplo #1  completar frases
+          p.mb-4 #[strong Instrucciones.] Escuche los audios, complete los espacios en blanco de cada una de las frases y luego haga clic en el botón "Verificar respuesta"
+
           a.boton.boton--b(:href="obtenerLink('/actividades/AD3/index.html')" target="_blank")
             span Realizar
-            i.fas.fa-puzzle-piece      
-    
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/document.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Completar frases
-                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://drive.google.com/file/d/1ar_rm5Bm7WNjbWwbKoA6zLVmZEJM8AGc/view?usp=sharing" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download 
-      .col-lg-4
-        a.anexo(href="https://docs.google.com/document/d/1-YHtyjZ-8q4lfvD-bIXS-pneDhj6nYsq72-OYaKoVnw/edit?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra  
+            i.fas.fa-puzzle-piece
 
-    
-    .tarjeta.clr--gris.p-5.mb-2
+
+    .tarjeta.clr--gris.p-5.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-lg-5.mb-4.mb-md-0
-          img(src="@/assets/curso/temas/actividad/actividad_04.png").mb-3          
+          img(src="@/assets/curso/temas/actividad/actividad_04.png").mb-3
 
         .col-md.col-lg-6
-          h3 Completar frases
-          p.mb-4 #[strong Completar frases.] Complete los espacios en blanco de cada una de las frases y luego haga clic en el botón "Verificar respuesta".
-          
+          h3 Ejemplo #2  completar frases
+          p.mb-4 #[strong Instrucciones.] Complete los espacios en blanco de cada una de las frases y luego haga clic en el botón "Verificar respuesta".
+
           a.boton.boton--b(:href="obtenerLink('/actividades/AD4/index.html')" target="_blank")
             span Realizar
-            i.fas.fa-puzzle-piece      
-    
+            i.fas.fa-puzzle-piece
+
+    .row.mb-5
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones
+          .tarjeta.clr--gris.p-4(titulo="Requerimientos")
+            ul.lista-ul.mb-0
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Las indicaciones, el mensaje de correcto e incorrecto debe estar la redacción en segunda persona.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Al final de la actividad se muestra una retroalimentación de felicitación si logra el 70% de respuestas correctas o retroalimentación de mejora si es inferior a este porcentaje.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Se deben resaltar en amarillo las palabras del enunciado que deben completarse. Tenga en cuenta que cada espacio debe contener una sola palabra.
+
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Se permiten un máximo de 7 enunciados.
+
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Cada enunciado debe contener máximo 20 palabras.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Cada término que se debe escribir en el espacio en blanco debe tener máximo 1 sola palabra.
+
+
+            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de esta actividad
+
+            .tarjeta.color-primario.p-3
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/document.svg").img65
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4.mb-1 Formato instruccional - Relación de términos
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo completar espacios
+                    .col-sm-auto
+                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1-YHtyjZ-8q4lfvD-bIXS-pneDhj6nYsq72-OYaKoVnw/edit?usp=sharing" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download
+
+
+
+    #t_5_4.titulo-segundo.color-acento-contenido
+      h2 5.4 Diálogos (Relación de términos en un diálogo)
+
+    #t_5_4
+    Dialogo.color-primario(:dialogo="dialogo")
+      template(#nombre-actividad) Arrastrar y Soltar
+      template(#titulo-actividad) Greeting the doctor. / Saludando al doctor.
+      template(#descripcion-actividad) Escuche los audios y complete los espacios en blanco de cada una de las frases arrastrando el término correcto.
+    .row.justify-content-end.mb-2.me-3
+      .col-auto
+        a.boton.color-primario.b--rad(:href="obtenerLink('/downloads/Dialogo.txt')" target="_blank" type="application/pdf")
+          span Ver código fuente
+
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .tarjeta.color-primario.p-3
@@ -229,19 +249,18 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Completar frases
-                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario. 
+                  h4.mb-1 Formato instruccional - Diálogo
+                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo dialogo.
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://docs.google.com/document/d/1aKdgBE4ngvHjNUvPGqEyIDbvNYuqp-a_LwQnX6UjQUQ/edit?usp=sharing" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download 
+                  a.boton.color-acento-botones(href="#" target="_blank")
+                    span Descargar (Pendiente)
+                    i.fas.fa-file-download
       .col-lg-4
-        a.anexo(href="https://docs.google.com/document/d/1-YHtyjZ-8q4lfvD-bIXS-pneDhj6nYsq72-OYaKoVnw/edit?usp=sharing" target="_blank")
+        //a.anexo(href="https://drive.google.com/file/d/1ar_rm5Bm7WNjbWwbKoA6zLVmZEJM8AGc/view?usp=sharing" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra 
-
+            p Formato instruccional - muestra
 </template>
 
 <script>

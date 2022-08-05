@@ -27,10 +27,10 @@
             ul.lista-ul.mb-4
               li
                 i.fas.fa-angle-right.txt--orange
-                | Título corto
+                | Título corto  (máximo 10 palabras)
               li
                 i.fas.fa-angle-right.txt--orange
-                | <b>Texto introductorio:</b> &nbsp;colocar una breve descripción del tema que se aborda en la infografía.
+                | <b>Texto descriptivo:</b> &nbsp;colocar una breve descripción del tema que se aborda en la infografía. (párrafo corto 40 palabras aprox)
               li
                 i.fas.fa-angle-right.txt--orange
                 | <b>Imagen de referencia:</b> &nbsp;Describir y/o colocar una imagen de referencia, de la infografía solicitada.
@@ -90,7 +90,7 @@
       h2 Ejemplos de infografías estáticas
 
     .titulo-sexto.color-acento-contenido
-      h5 Ejemplo
+      h5 Ejemplo #1
       span infografía como imagen dentro del contenido
 
     .row.justify-content-center.align-items-center.mb-5
@@ -105,10 +105,10 @@
           .anexo__texto
             p Formato instruccional - muestra
 
-         
+
 
     .titulo-sexto.color-acento-contenido
-      h5 Ejemplo
+      h5 Ejemplo #2
       span infografía descargable en pdf, con un título y texto introductorio.
 
     .tarjeta.color-acento-botones.p-4.p-md-5
@@ -127,58 +127,16 @@
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Llamado_accion_infografias.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente              
+          span Ver código fuente
 
-    .titulo-sexto.color-acento-contenido
-      h5 Ejemplo
-      span infografía descargable en pdf, para recursos externos
-    .tarjeta.color-primario.p-3
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/ej-02.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Título del recurso
-              p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias  
-            .col-sm-auto
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    .row.justify-content-end.mb-5.me-3
-      .col-auto
-        a.boton.color-acento-botones.b--rad(:href="obtenerLink('/downloads/Llamado_accion.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente 
 
-    .titulo-sexto.color-acento-contenido
-      h5 Ejemplo
-      span Descargable para recursos externos simplificado 
-
-    .row.justify-content-center
-      .col-lg-5
-        a.anexo(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
-
-      .col-lg-5
-        a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-zip.svg")
-          .anexo__texto
-            p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
-    .row.justify-content-end.mb-5.me-3
-      .col-3
-        a.boton.color-acento-botones.b--rad(:href="obtenerLink('/downloads/Llamado_accion_simplificado.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente 
     .row.justify-content-center.mb-5
       .col-auto
         a.anexo(href="https://drive.google.com/file/d/1-3pXt71H1Wb1qrak2PXb7MvU5ZaYW2VK/view" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra 
+            p Formato instruccional - muestra
 
 
 </template>

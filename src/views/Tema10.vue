@@ -15,42 +15,42 @@
         .crd.clr-paleYellow.p-4.mb-4
           p.mb-0 La navegación por pestañas se refiere a la posibilidad de que varios paneles con información estén contenidos dentro de una sola ventana principal, usando pestañas para alternar entre ellos.
 
-        p Se presenta la explicación o información en una especie de panel que provee toda la información en la pantalla principal conservando la introducción estática y ahondando a partir de pestañas, permitiendo la navegación entre ellas. Es recomendable usarla en: 
+        p Se presenta la explicación o información en una especie de panel que provee toda la información en la pantalla principal conservando la introducción estática y ahondando a partir de pestañas, permitiendo la navegación entre ellas. Es recomendable usarla en:
         .row.justify-content-center.align-items-center.ps-3
-          .col-lg-6        
+          .col-lg-6
             ul.lista-ul--color
-              li 
+              li
                 i.lista-ul__vineta
-                p.mb-0 Tipologías 
-              li 
+                p.mb-0 Tipologías
+              li
                 i.lista-ul__vineta
-                p.mb-0 Etapas 
-              li 
+                p.mb-0 Etapas
+              li
                 i.lista-ul__vineta
                 p.mb-0 Definiciones
-          .col-lg-6        
+          .col-lg-6
             ul.lista-ul--color
-              li 
+              li
                 i.lista-ul__vineta
-                p.mb-0 Procesos 
-              li 
+                p.mb-0 Procesos
+              li
                 i.lista-ul__vineta
-                p.mb-0 Secciones/subtemas 
-              li 
+                p.mb-0 Secciones/subtemas
+              li
                 i.lista-ul__vineta
-                p.mb-0 Nomenclaturas 
+                p.mb-0 Nomenclaturas
 
-          p Es útil cuando se abordan temas como normas, decretos, leyes, condiciones etc. 
+          p Es útil cuando se abordan temas como normas, decretos, leyes, condiciones etc.
 
 
     separador
     #t_10_1.titulo-segundo.color-acento-contenido
-      h2 10.1 Pestañas verticales    
+      h2 10.1 Pestañas verticales
 
     TabsA.color-acento-botones
       .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
         h4 PASO 1: The splendor
-        p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
+        p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of
           strong user style sheets
           |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
         p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -63,7 +63,7 @@
               img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
               figcaption Leyenda de la imagen
           .col-xl-6
-            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
+            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of
               strong user style sheets
               |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
@@ -73,15 +73,15 @@
           span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones       
+        TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
-              li 
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Titulo corto e ilustrativo (cuando aplica).
-              li 
+                | Titulo corto de máximo de 4 palabras
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+                | Cada diapositiva debe ir acompañada de un texto de maximo 140 palabras que pueden ir acompañada de una  foto o ilustración.
 
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center
@@ -91,18 +91,18 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       h4.mb-1 Formato instruccional - Pestañas o tabs
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs. 
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs.
                     .col-sm-auto
                       a.boton.color-acento-botones(href="https://docs.google.com/document/d/1QOVDmKmX036aLaKuyGMBevxp_fjucW5ShQiXjb3ONtM/edit?usp=sharing" target="_blank")
                         span Descargar
-                        i.fas.fa-file-download  
+                        i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
-      span pestañas verticales 
+      span pestañas verticales
     .row
       .col-lg-8.order-2.order-lg-1
-        TabsA.color-acento-botones.mb-5        
+        TabsA.color-acento-botones.mb-5
           .tarjeta.clr-paleYellow.p-4(titulo="Leyes")
             h4 Leyes
             p Ley 100 de 1993 - Por la cual se crea el Sistema de Seguridad Social Integral y se dictan otras disposiciones.
@@ -112,7 +112,7 @@
 
           .tarjeta.clr-paleYellow.p-4(titulo="Decretos")
             h4 Decretos
-            p Decreto 1295 de 1994 - Determina la organización y administración del Sistema General de Riesgos Profesionales. 
+            p Decreto 1295 de 1994 - Determina la organización y administración del Sistema General de Riesgos Profesionales.
               br
               br
               | Decreto 1072 de 2015 - Decreto Único Reglamentario del Sector Trabajo.
@@ -142,11 +142,11 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra           
+            p Formato instruccional - muestra
 
     separador
     #t_10_2.titulo-segundo.color-acento-contenido
-      h2 10.2 Pestañas horizontales - sencillas 
+      h2 10.2 Pestañas horizontales - sencillas
 
     TabsC.color-primario
       .py-3.py-md-4(titulo="The splendor of the mystery")
@@ -154,7 +154,7 @@
           .col-md-6.mb-4.mb-md-0
             h4 Celebrate your failures 1
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
+
           .col-md-6
             figure
               img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
@@ -167,22 +167,22 @@
               figcaption Leyenda de la imagen
           .col-md-6
             h4 Celebrate your failures 2
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.         
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsC.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones       
+        TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
-              li 
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Titulo corto e ilustrativo (cuando aplica).
-              li 
+                | Titulo corto de máximo de 6 palabras
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+                | Cada diapositiva debe ir acompañada de un texto de maximo sugerido de 140 palabras que pueden ir acompañada de una  foto o ilustración.
 
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center
@@ -192,15 +192,15 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       h4.mb-1 Formato instruccional - Pestañas o tabs
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs. 
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs.
                     .col-sm-auto
                       a.boton.color-acento-botones(href="https://docs.google.com/document/d/1-1ZkRCH5WZ7uZL3XgwvsahD1WGvRPsLGM3E1kIXHJU8/edit?usp=sharing" target="_blank")
                         span Descargar
-                        i.fas.fa-file-download  
+                        i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
-      span pestañas horizontales - sencillas 
+      span pestañas horizontales - sencillas
 
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Archivo de gestión o de oficina")
@@ -212,10 +212,10 @@
             h4.txt--purpura Archivo de gestión o de oficina
             p En este archivo reposan los documentos generados en los procesos de gestión administrativa. El tiempo de permanencia de la documentación en este depende fundamentalmente del trámite y de las normas internas indicadas en las Tablas de Retención Documental - TRD para decidir su traslado al archivo central.
 
-            p Las oficinas deberán transferir al archivo central aquellas series y subseries documentales que hayan cumplido el tiempo de retención señalado, toda transferencia debe ir acompañada de un inventario y debe hacerse de acuerdo con un cronograma previamente acordado entre quienes producen la documentación y la persona encargada del archivo.   
+            p Las oficinas deberán transferir al archivo central aquellas series y subseries documentales que hayan cumplido el tiempo de retención señalado, toda transferencia debe ir acompañada de un inventario y debe hacerse de acuerdo con un cronograma previamente acordado entre quienes producen la documentación y la persona encargada del archivo.
 
       .py-3.py-md-4(titulo="Archivo central o intermedio")
-        .row.justify-content-center          
+        .row.justify-content-center
           .col-lg-7
             h4.txt--purpura Archivo central o intermedio
             p A este archivo son transferidos los documentos de los archivos de gestión cuya consulta no es tan frecuente, es decir, cuando están en su segundo ciclo de vida (semiactivos). El archivo central deberá facilitar la consulta tanto a las oficinas productoras como al público en general de acuerdo a las normas que lo regulen.
@@ -223,7 +223,7 @@
             p.mb-0 La documentación permanecerá en el archivo central durante el tiempo estipulado en las TRD. Antes de transferir al archivo histórico, se aplicará la disposición final y los procedimientos previstos en la TRD.
           .col-lg-5
             figure(data-aos="zoom-in")
-              img(src='@/assets/curso/temas/pestañas/pestañas_02.png', alt='').img400.m-auto      
+              img(src='@/assets/curso/temas/pestañas/pestañas_02.png', alt='').img400.m-auto
 
       .py-3.py-md-4(titulo="Archivo histórico o permanente")
         .row.justify-content-center
@@ -242,7 +242,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra  
+            p Formato instruccional - muestra
 
     separador
     #t_10_3.titulo-segundo.color-acento-contenido
@@ -254,7 +254,7 @@
           .col-md-6.mb-4.mb-md-0
             h4 Celebrate your failures 1
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
+
           .col-md-6
             figure
               img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
@@ -274,15 +274,18 @@
           span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones       
+        TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
-              li 
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Titulo corto e ilustrativo (cuando aplica).
-              li 
+                | Titulo corto de máximo de 6 palabras
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+                | Icono asociado al título
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Cada diapositiva debe ir acompañada de un texto de maximo sugerido de 140 palabras que pueden ir acompañada de una  foto o ilustración.
 
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center
@@ -292,11 +295,11 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       h4.mb-1 Formato instruccional - Pestañas o tabs
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs. 
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs.
                     .col-sm-auto
                       a.boton.color-acento-botones(href="https://docs.google.com/document/d/1-1ZkRCH5WZ7uZL3XgwvsahD1WGvRPsLGM3E1kIXHJU8/edit?usp=sharing" target="_blank")
                         span Descargar
-                        i.fas.fa-file-download              
+                        i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
@@ -309,48 +312,48 @@
             p La palabra animación proviene del latín ánima, que significa alma o espíritu, de allí que el proceso de animación en producción gráfica, busca crear y dar  la ilusión de movimiento y vida sobre objetos  inanimados como  imágenes y fotografías, entre otros.
               br
               br
-              |Este proceso enlaza diferentes secuencias de  dibujos que al darles una velocidad de  movimiento constante, por lo general de 24 cuadros por segundo, dan la sensación de vida y movimiento a los objetos. 
+              |Este proceso enlaza diferentes secuencias de  dibujos que al darles una velocidad de  movimiento constante, por lo general de 24 cuadros por segundo, dan la sensación de vida y movimiento a los objetos.
               br
               br
-              |Se pueden encontrar diferentes tipos de animación como por ejemplo:                   
-            p.text-bl <i><b>Stop motion.</b></i> Este tipo de animación es muy conocida y se logra haciendo una gran cantidad de tomas consecutivas de un objeto, movilizando entre toma y toma, que al ser unidas dan la sensación de movimiento. 
+              |Se pueden encontrar diferentes tipos de animación como por ejemplo:
+            p.text-bl <i><b>Stop motion.</b></i> Este tipo de animación es muy conocida y se logra haciendo una gran cantidad de tomas consecutivas de un objeto, movilizando entre toma y toma, que al ser unidas dan la sensación de movimiento.
           .col-md-6.mb-4.mb-md-0
             img(src="@/assets/curso/temas/pestañas/pestaña_c1.svg" alt="Adornos flotantes")
 
       .py-4.py-md-5(titulo="Dibujos animados" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_02.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            p La técnica de los dibujos animados es atribuida a Disney, y está dada por una sucesión de imágenes en dos dimensiones, a partir de fotogramas puestos en secuencia, que unidos dan la sensación de movimiento. 
+            p La técnica de los dibujos animados es atribuida a Disney, y está dada por una sucesión de imágenes en dos dimensiones, a partir de fotogramas puestos en secuencia, que unidos dan la sensación de movimiento.
           .col-md-6.mb-4.mb-md-0
             .tira_1
 
       .py-4.py-md-5(titulo="Plasmación" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_03.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            p En esta técnica de animación se realizan y caracterizan personajes  principalmente en plastilina, los cuales se van moviendo muy lentamente de captura en captura. 
+            p En esta técnica de animación se realizan y caracterizan personajes  principalmente en plastilina, los cuales se van moviendo muy lentamente de captura en captura.
               br
               br
-              |Dentro de algunas de las películas más importantes con esta técnica podemos encontrar, Pollitos en fuga y El extraño mundo de Jack. 
+              |Dentro de algunas de las películas más importantes con esta técnica podemos encontrar, Pollitos en fuga y El extraño mundo de Jack.
           .col-md-6.mb-4.mb-md-0
             .tira_2
 
       .py-4.py-md-5(titulo="Animación computarizada" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_04.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            p Este tipo de animación ha tenido gran auge en la última década ya que su parecido con la realidad, es casi imperceptible y no solo se limita a la creación de personajes para películas sino también se utiliza en videojuegos entre otros. En su creación son utilizados diversos programas que permiten generar realidades en 3D y en 4D. 
+            p Este tipo de animación ha tenido gran auge en la última década ya que su parecido con la realidad, es casi imperceptible y no solo se limita a la creación de personajes para películas sino también se utiliza en videojuegos entre otros. En su creación son utilizados diversos programas que permiten generar realidades en 3D y en 4D.
           .col-md-6.mb-4.mb-md-0
             .tira_3
 
       .py-4.py-md-5(titulo="Videos" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_05.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            p El video es un sistema que permite la grabación simultánea de imágenes y  sonidos, en algunos casos en una cinta magnética y en otros por medios digitales, por una secuencia de captura de fotogramas de imágenes que luego en secuencia y a una velocidad considerable, generan movimiento. 
+            p El video es un sistema que permite la grabación simultánea de imágenes y  sonidos, en algunos casos en una cinta magnética y en otros por medios digitales, por una secuencia de captura de fotogramas de imágenes que luego en secuencia y a una velocidad considerable, generan movimiento.
           .col-md-6.mb-4.mb-md-0
             .tira_4
       .py-4.py-md-5(titulo="Sliders" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_06.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            p Un slider es un recurso en diseño web, el cual consiste en mostrar diferentes imágenes, sonidos e incluso videos que se van deslizando unas sobre otras. Se puede interpretar como un carrusel o deslizador de diapositivas, el cual va ubicado generalmente en una parte destacada de la web. 
+            p Un slider es un recurso en diseño web, el cual consiste en mostrar diferentes imágenes, sonidos e incluso videos que se van deslizando unas sobre otras. Se puede interpretar como un carrusel o deslizador de diapositivas, el cual va ubicado generalmente en una parte destacada de la web.
           .col-md-6.mb-4.mb-md-0
             .tira_5
               img(src="@/assets/curso/temas/pestañas/slider.svg" alt="Adornos flotantes")
@@ -361,7 +364,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra  
+            p Formato instruccional - muestra
 </template>
 
 <script>

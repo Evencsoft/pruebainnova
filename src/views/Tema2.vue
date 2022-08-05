@@ -62,13 +62,16 @@
                 | Título corto
               li
                 i.fas.fa-angle-right.txt--orange
-                | <b>Texto introductorio:</b> &nbsp;colocar una breve descripción del tema que se aborda en la infografía.
+                | <b>Texto descriptivo:</b> &nbsp;colocar una breve descripción del tema que se aborda en la infografía.
               li
                 i.fas.fa-angle-right.txt--orange
                 | <b>Imagen de referencia:</b> &nbsp;Describir y/o colocar una imagen de referencia, de la infografía solicitada.
               li
                 i.fas.fa-angle-right.txt--orange
-                | Título y texto que se despliega en cada punto interactivo.
+                | #[strong Puntos calientes]: Título y texto que se despliega en cada punto interactivo. #[strong (MÁXIMO 10 PUNTOS INTERACTIVOS)]
+
+
+
 
 
             p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de la infografía.
@@ -120,11 +123,11 @@
 
     .row.justify-content-center.mt-5
       .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1l5xILu9ounwutyxi5CSTytllgiWheuyX/view?usp=sharing" target="_blank")
+        a.anexo(href="https://drive.google.com/file/d/1rk5d28KabWs8h4GMSPJWhBcTuobXmjJS/view?usp=sharing" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra  
+            p Formato instruccional - muestra
 
     separador
 
@@ -331,15 +334,15 @@
 
                   .col-lg-5
                     figure
-                      img(src='@/assets/curso/temas/infografia/mod_12.png', alt='imagen decorativa')          
+                      img(src='@/assets/curso/temas/infografia/mod_12.png', alt='imagen decorativa')
 
     .row.justify-content-center.my-5
       .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1rk5d28KabWs8h4GMSPJWhBcTuobXmjJS/view?usp=sharing" target="_blank")
+        a.anexo(href="https://drive.google.com/file/d/1l5xILu9ounwutyxi5CSTytllgiWheuyX/view?usp=sharing" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra 
+            p Formato instruccional - muestra
 </template>
 
 <script>

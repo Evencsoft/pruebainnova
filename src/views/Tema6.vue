@@ -20,19 +20,19 @@
         p.mb-4 Su uso está determinado por la extensión del tema o cuando hay:
 
         ul.lista-ul--color.ps-3
-          li 
+          li
             i.lista-ul__vineta
             p.mb-0 Tópicos y subtópicos
-          li 
+          li
             i.lista-ul__vineta
             p.mb-0 Secuencia, sucesos o casos
-          li 
+          li
             i.lista-ul__vineta
             p.mb-0 Secciones
-          li 
+          li
             i.lista-ul__vineta
             p.mb-0 Procedimientos
-          li 
+          li
             i.lista-ul__vineta
             p.mb-0 Narraciones o historias
 
@@ -74,13 +74,13 @@
             ul.lista-ul.mb-0
               li
                 i.fas.fa-angle-right.txt--orange
-                | Título o subtítulo de la temática que se aborda
+                | Título o subtítulo de la temática que se aborda en las diapositivas
               li
                 i.fas.fa-angle-right.txt--orange
-                | Colocar una breve descripción del tema que se aborda en el slide
+                | Se permite un máximo de 8 diapositivas.
               li
                 i.fas.fa-angle-right.txt--orange
-                | Colocar el texto que va en cada diapositiva según el formato instruccional
+                | Por cada diapositiva debe ir un texto de máximo 80 palabras.
 
 
             p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción del slide de diapositivas
@@ -188,13 +188,13 @@
             ul.lista-ul.mb-0
               li
                 i.fas.fa-angle-right.txt--orange
-                | Título o subtítulo de la temática que se aborda
+                | Título o subtítulo de la temática que se aborda en las diapositivas
               li
                 i.fas.fa-angle-right.txt--orange
-                | Colocar una breve descripción del tema que se aborda en el slide
+                | Se permite un máximo de 8 diapositivas.
               li
                 i.fas.fa-angle-right.txt--orange
-                | Colocar el texto que va en cada diapositiva según el formato instruccional
+                | Por cada diapositiva debe ir un texto de máximo 80 palabras.
 
 
             p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción del slide de diapositivas
@@ -282,6 +282,9 @@
 
     p.mb-4 Es para textos un poco más extensos que en el tipo anterior y la imagen puede ser más ilustrativa. Ideal para explicar fases, etapas, acontecimientos (línea de tiempo) o procedimientos. Cada diapositiva tendrá un nombre referente a su contenido. Se recomienda usar máximo 10 pasos y mínimo 4.
 
+
+    h3 Opción 1
+
     .tarjeta.tarjeta--gris.p-4
       PasosB.color-acento-contenido
         .row(titulo="Titulo 1")
@@ -303,9 +306,11 @@
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_numero_titulo.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente            
+          span Ver código fuente
 
     hr.my-5
+
+    h3 Opción 2
 
     .tarjeta.tarjeta--gris.p-4
       LineaTiempoC.color-acento-contenido(text-small)
@@ -330,7 +335,7 @@
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_titulo.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente  
+          span Ver código fuente
 
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
@@ -339,14 +344,16 @@
             ul.lista-ul.mb-0
               li
                 i.fas.fa-angle-right.txt--orange
-                | Título o subtítulo de la temática que se aborda
+                | Título o subtítulo de la temática que se aborda en las diapositivas
               li
                 i.fas.fa-angle-right.txt--orange
-                | Colocar una breve descripción del tema que se aborda en el slide
+                | Se permite un máximo de 8 diapositivas.
               li
                 i.fas.fa-angle-right.txt--orange
-                | Colocar el texto que va en cada diapositiva según el formato instruccional
-
+                | Por cada diapositiva debe ir un texto de máximo 80 palabras.
+              li
+                i.fas.fa-angle-right.txt--orange
+                | Se debe incluir un título en la navegación de la diapositiva de máximo 3 palabras.
 
             p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción del slide de diapositivas
 
@@ -366,7 +373,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
-      span navegación con títulos 
+      span navegación con títulos
     LineaTiempoC.color-secundario(text-small)
       .row.align-items-center(titulo="Prehistoria").p-4
         .col-lg-5

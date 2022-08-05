@@ -6,45 +6,45 @@
       .titulo-principal__numero
         span 13
       h1 Tarjetas
-    
+
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/tarjetas/tarjetas.svg", alt="alt")
       .col-lg-6
         .crd.clr-paleYellow.p-4.mb-4
-          p.mb-0 Las tarjetas se utilizan para agrupar varios contenidos dentro de un contenedor que se puede replicar de manera modular en el contenido del sitio web. 
+          p.mb-0 Las tarjetas se utilizan para agrupar varios contenidos dentro de un contenedor que se puede replicar de manera modular en el contenido del sitio web.
 
-        p Es un forma de seccionar información un poco más amplia que en el carrusel de tarjetas, aunque igualmente se debe ser concreto en la explicación. Al ser tarjetas su intencionalidad está enfocada a dar un dato o definición específica, que el usuario pueda llevarse ese dato fácilmente en su memoria o asociarlo a un hecho rápidamente, puede usarse para: 
+        p Es un forma de seccionar información un poco más amplia que en el carrusel de tarjetas, aunque igualmente se debe ser concreto en la explicación. Al ser tarjetas su intencionalidad está enfocada a dar un dato o definición específica, que el usuario pueda llevarse ese dato fácilmente en su memoria o asociarlo a un hecho rápidamente, puede usarse para:
         .row.justify-content-start.align-items-center.ps-3
-          .col-lg-6        
+          .col-lg-6
             ul.lista-ul--color
-              li 
+              li
                 i.lista-ul__vineta
-                p.mb-0 Definir roles específicos 
-              li 
+                p.mb-0 Definir roles específicos
+              li
                 i.lista-ul__vineta
-                p.mb-0 Aclaraciones y excepciones 
-              li 
+                p.mb-0 Aclaraciones y excepciones
+              li
                 i.lista-ul__vineta
-                p.mb-0 Caracterizaciones 
-              li 
+                p.mb-0 Caracterizaciones
+              li
                 i.lista-ul__vineta
                 p.mb-0 Ventajas y desventajas
-          .col-lg-6        
+          .col-lg-6
             ul.lista-ul--color
-              li 
+              li
                 i.lista-ul__vineta
-                p.mb-0 Datos curiosos 
-              li 
+                p.mb-0 Datos curiosos
+              li
                 i.lista-ul__vineta
-                p.mb-0 Explicaciones pequeñas y concretas 
-              li 
+                p.mb-0 Explicaciones pequeñas y concretas
+              li
                 i.lista-ul__vineta
-                p.mb-0 Resultados 
-              li 
+                p.mb-0 Resultados
+              li
                 i.lista-ul__vineta
-                p.mb-0 Estadísticas   
+                p.mb-0 Estadísticas
 
     separador
     #t_13_1.titulo-segundo.color-acento-contenido
@@ -93,18 +93,18 @@
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_avatar.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente 
+          span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones       
+        TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
-              li 
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Titulo corto e ilustrativo (cuando aplica).
-              li 
+                | Titulo corto de máximo 5 palabras
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+                | Cada tarjeta debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una foto o ilustración.
 
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center
@@ -114,15 +114,15 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       h4.mb-1 Formato instruccional - Tarjetas
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas. 
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas.
                     .col-sm-auto
                       a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
                         span Descargar
-                        i.fas.fa-file-download   
+                        i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
-      span tarjetas - avatar 
+      span tarjetas - avatar
 
     .bg_img_01
       .row.justify-content-center.mb-5
@@ -166,7 +166,7 @@
           .col-6
             figure
               img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          
+
         h2.text-center Celebrate your<br>failures
         p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
       .col-md.tarjeta.color-acento-botones.p-5
@@ -174,7 +174,7 @@
           .col-6
             figure
               img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          
+
         h2.text-center Sterility leads to<br>susceptibility
         p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
       .col-md.tarjeta.color-acento-contenido.text-white.p-5
@@ -182,24 +182,24 @@
           .col-6
             figure
               img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          
+
         h2.text-center Sterility leads to<br>susceptibility
         p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-primario.b--rad(:href="obtenerLink('/downloads/Tarjetas_conectadas.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente 
+          span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones       
+        TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
-              li 
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Titulo corto e ilustrativo (cuando aplica).
-              li 
+                | Titulo corto de máximo 5 palabras
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+                | Cada tarjeta debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una foto o ilustración.
 
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center
@@ -209,11 +209,11 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       h4.mb-1 Formato instruccional - Tarjetas
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas. 
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas.
                     .col-sm-auto
                       a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
                         span Descargar
-                        i.fas.fa-file-download   
+                        i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
@@ -221,7 +221,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-9.position-relative
-        h3.mb-4.text-center.txt--purpura Elementos determinantes para el análisis - CAC 
+        h3.mb-4.text-center.txt--purpura Elementos determinantes para el análisis - CAC
         .avatar
           figure
             img(src="@/assets/curso/temas/tarjetas/conectada_01.svg", alt="alt").img250
@@ -232,7 +232,7 @@
                 img(src="@/assets/curso/temas/tarjetas/conectada_02.svg", alt="alt").img100
             .col
               h5 Calidad de la información
-              p Es importante tener en cuenta las variables, la ponderación de estas refleja la calidad de la información, la cual le permitirá obtener información concreta, clara y medible. Es necesario resaltar las características determinantes desde enfoques cualitativos y cuantitativos del dato obtenido. 
+              p Es importante tener en cuenta las variables, la ponderación de estas refleja la calidad de la información, la cual le permitirá obtener información concreta, clara y medible. Es necesario resaltar las características determinantes desde enfoques cualitativos y cuantitativos del dato obtenido.
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
@@ -248,7 +248,7 @@
                 img(src="@/assets/curso/temas/tarjetas/conectada_03.svg", alt="alt").img100
             .col
               h5 Comunicación correcta de los resultados
-              p En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información. 
+              p En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información.
 
     .row.justify-content-center
       .col-auto
@@ -256,7 +256,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra  
+            p Formato instruccional - muestra
 
     separador
     #t_13_3.titulo-segundo.color-acento-contenido
@@ -269,7 +269,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h1 John Doe
-              p Lorem ipsum dolor sit amet, 
+              p Lorem ipsum dolor sit amet,
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tarjetas/avatar.svg')})`}")
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
@@ -298,18 +298,18 @@
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_animadas.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente 
+          span Ver código fuente
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones       
+        TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
-              li 
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Titulo corto e ilustrativo (cuando aplica).
-              li 
+                | Titulo corto de máximo 5 palabras
+              li
                 i.fas.fa-angle-right.txt--orange
-                | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
+                | Cada tarjeta debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una foto o ilustración.
 
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center
@@ -319,11 +319,11 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       h4.mb-1 Formato instruccional - Tarjetas
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas. 
+                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas.
                     .col-sm-auto
                       a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
                         span Descargar
-                        i.fas.fa-file-download   
+                        i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
@@ -336,7 +336,7 @@
             figure
               img(src="@/assets/curso/temas/tarjetas/tar_hover_01.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Reporte de ventas diarias 
+            h4.mb-3 Reporte de ventas diarias
             p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -355,7 +355,7 @@
               img(src="@/assets/curso/temas/tarjetas/tar_hover_03.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Reporte de ventas mensuales
-            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.    
+            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
 
     .row.justify-content-center
       .col-auto
@@ -363,48 +363,48 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Formato instruccional - muestra  
+            p Formato instruccional - muestra
 
     separador
-    #t_13_3.titulo-segundo.color-acento-contenido
-      h2 13.3 Tarjetas con número
+    #t_13_4.titulo-segundo.color-acento-contenido
+      h2 13.4 Tarjetas con número
 
     .row
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-primario.p-5
           .tarjeta-numerada__numero
             .h2 1
-          p.text-center 
-            b Ruta integral de atención en salud 
+          p.text-center
+            b Ruta integral de atención en salud
           p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
 
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-5
           .tarjeta-numerada__numero
             .h2 2
-          p.text-center 
-            b Ruta integral de atención en salud 
+          p.text-center
+            b Ruta integral de atención en salud
           p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
 
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 3
-          p.text-center 
-            b Ruta integral de atención en salud 
+          p.text-center
+            b Ruta integral de atención en salud
           p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
 
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-botones.p-5
           .tarjeta-numerada__numero
             .h2 4
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas      
+          p.text-center
+            b Ruta integral de atención en salud
+          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_con_numero.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente 
+          span Ver código fuente
 </template>
 
 <script>
