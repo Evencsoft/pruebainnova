@@ -59,7 +59,7 @@
             ul.lista-ul.mb-4
               li
                 i.fas.fa-angle-right.txt--orange
-                | Título corto
+                | Título corto de máximo 7 palabras
               li
                 i.fas.fa-angle-right.txt--orange
                 | #[strong Texto descriptivo]: Colocar una breve descripción del tema que se aborda en la infografía.
@@ -163,7 +163,7 @@
             ul.lista-ul.mb-4
               li
                 i.fas.fa-angle-right.txt--orange
-                | Título corto
+                | Título corto de máximo 8 palabras
               li
                 i.fas.fa-angle-right.txt--orange
                 | #[strong Texto descriptivo]: Colocar una breve descripción del tema que se aborda en la infografía.
