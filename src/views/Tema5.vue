@@ -249,11 +249,11 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Diálogo
+                  h4.mb-1 Formato instruccional - Diálogo Ingles/Español
                   p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo dialogo.
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="#" target="_blank")
-                    span Descargar (Pendiente)
+                  a.boton.color-acento-botones(href="https://docs.google.com/document/d/1oQ27-xOnozTqJxihAnnBHwbMWn4cgNp-6WbQXjvt-hQ/edit?usp=sharing" target="_blank")
+                    span Descargar
                     i.fas.fa-file-download
       .col-lg-4
         //a.anexo(href="https://drive.google.com/file/d/1ar_rm5Bm7WNjbWwbKoA6zLVmZEJM8AGc/view?usp=sharing" target="_blank")
