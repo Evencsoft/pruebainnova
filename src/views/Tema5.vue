@@ -256,7 +256,7 @@
                     span Descargar
                     i.fas.fa-file-download
       .col-lg-4
-        //a.anexo(href="https://drive.google.com/file/d/1ar_rm5Bm7WNjbWwbKoA6zLVmZEJM8AGc/view?usp=sharing" target="_blank")
+        a.anexo(href="https://drive.google.com/file/d/1qoDmgphh4r-TxVu_M1ZVYg_CODgNteJE/view?usp=sharing" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
